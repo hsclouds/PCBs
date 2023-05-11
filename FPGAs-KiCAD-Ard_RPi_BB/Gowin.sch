@@ -1,0 +1,1675 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 7 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_UNO_R3 GN_Ard_R3_Hdr?
+U 1 1 61971CD0
+P 21350 9050
+AR Path="/61971CD0" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F8673/61971CD0" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F80EB/61971CD0" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/6199B5DD/61971CD0" Ref="GN_Ard_R3_Hdr1"  Part="1" 
+F 0 "GN_Ard_R3_Hdr1" H 20850 10000 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 20850 8000 50  0001 C CNN
+F 2 "Module:Arduino_UNO_R3" H 21350 9050 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 21350 9050 50  0001 C CNN
+	1    21350 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D GN_RPi_4B_Hdr?
+U 1 1 61971CDE
+P 20600 5050
+AR Path="/61971CDE" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F8673/61971CDE" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F80EB/61971CDE" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/6199B5DD/61971CDE" Ref="GN_RPi_4B_Hdr1"  Part="1" 
+F 0 "GN_RPi_4B_Hdr1" H 21100 5200 50  0000 C CNN
+F 1 "RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D" H 21400 3000 50  0001 C CNN
+F 2 "RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRYPI4B4GB" H 21750 5150 50  0001 L CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_4b_4p0.pdf" H 21750 5050 50  0001 L CNN
+F 4 "RASPBERRY PI 4 MODEL B with Samtec ESP-120-33-G-D connector drawn from underneath for use as a plug in module." H 21750 4950 50  0001 L CNN "Description"
+F 5 "24.3" H 21750 4850 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 21750 4750 50  0001 L CNN "Manufacturer_Name"
+F 7 "RASPBERRY PI 4B + Samtec ESP-120-33-G-D" H 21750 4650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 21750 4550 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 21750 4450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 21750 4350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 21750 4250 50  0001 L CNN "Arrow Price/Stock"
+	1    20600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BEAGLEBONEBLACK:BEAGLEBONEBLACK GN_BB_Black_Hdr?
+U 1 1 61971CE8
+P 18650 7200
+AR Path="/61971CE8" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F8673/61971CE8" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F80EB/61971CE8" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/6199B5DD/61971CE8" Ref="GN_BB_Black_Hdr1"  Part="1" 
+F 0 "GN_BB_Black_Hdr1" H 18000 10350 50  0000 C CNN
+F 1 "BEAGLEBONEBLACK" H 19300 10350 50  0001 C CNN
+F 2 "BEAGLEBONEBLACK:MODULE_BEAGLEBONEBLACK" H 18650 7200 50  0001 L BNN
+F 3 "" H 18650 7200 50  0001 L BNN
+F 4 "Bearings Limited" H 18650 7200 50  0001 L BNN "MANUFACTURER"
+F 5 "4.76 mm" H 18650 7200 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "C" H 18650 7200 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 18650 7200 50  0001 L BNN "STANDARD"
+	1    18650 7200
+	1    0    0    -1  
+$EndComp
+Text Notes 19200 15750 0    50   ~ 0
+Gowin Semi FPGA and ASSP (I2C, SPI, JTAG, GPIO) FPGA Silicon
+$Comp
+L BLM03AX102SN1D:BLM03AX102SN1D GN_FB?
+U 1 1 61C611F4
+P 5850 13650
+AR Path="/619D2110/61C611F4" Ref="GN_FB?"  Part="1" 
+AR Path="/6199B5DD/61C611F4" Ref="GN_FB1"  Part="1" 
+F 0 "GN_FB1" H 5300 13750 50  0000 C CNN
+F 1 "BLM03AX102SN1D" H 5550 13600 50  0000 C CNN
+F 2 "BLM03AX102SN1D:BEADC0603X33N" H 5850 13650 50  0001 L BNN
+F 3 "" H 5850 13650 50  0001 L BNN
+	1    5850 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro GN_J_USB_uB?
+U 1 1 61C611FA
+P 4500 13850
+AR Path="/617AAF92/61C611FA" Ref="GN_J_USB_uB?"  Part="1" 
+AR Path="/617D0297/61C611FA" Ref="GN_J_USB_uB?"  Part="1" 
+AR Path="/619D2110/61C611FA" Ref="GN_J_USB_uB?"  Part="1" 
+AR Path="/6199B5DD/61C611FA" Ref="GN_J_USB_uB1"  Part="1" 
+F 0 "GN_J_USB_uB1" H 4557 14225 50  0000 C CNN
+F 1 "USB_B_Micro" H 4557 14226 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4650 13800 50  0001 C CNN
+F 3 "~" H 4650 13800 50  0001 C CNN
+	1    4500 13850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 14250
+Wire Wire Line
+	4400 14250 4500 14250
+$Comp
+L power:GND #PWR?
+U 1 1 61C61208
+P 4500 14500
+AR Path="/617AAF92/61C61208" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61C61208" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61C61208" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61C61208" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 4500 14250 50  0001 C CNN
+F 1 "GND" H 4505 14327 50  0000 C CNN
+F 2 "" H 4500 14500 50  0001 C CNN
+F 3 "" H 4500 14500 50  0001 C CNN
+	1    4500 14500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 13350 1    50   Input ~ 0
+VBUS
+Wire Wire Line
+	4500 14250 4500 14400
+$Comp
+L Device:R_US GN_R1
+U 1 1 61C667ED
+P 7750 12650
+F 0 "GN_R1" H 7818 12696 50  0000 L CNN
+F 1 "1.5K" H 7818 12605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7790 12640 50  0001 C CNN
+F 3 "~" H 7750 12650 50  0001 C CNN
+	1    7750 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PRTR5V0U2X_215:PRTR5V0U2X,215 GN_D1
+U 1 1 61C6B205
+P 8650 14400
+F 0 "GN_D1" V 9050 14450 50  0000 C CNN
+F 1 "PRTR5V0U2X,215" V 8300 14450 50  0000 C CNN
+F 2 "SOT143B" H 8650 14400 50  0001 L BNN
+F 3 "" H 8650 14400 50  0001 L BNN
+	1    8650 14400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C77AFA
+P 9000 14900
+AR Path="/617AAF92/61C77AFA" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61C77AFA" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61C77AFA" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61C77AFA" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 9000 14650 50  0001 C CNN
+F 1 "GND" H 9005 14727 50  0000 C CNN
+F 2 "" H 9000 14900 50  0001 C CNN
+F 3 "" H 9000 14900 50  0001 C CNN
+	1    9000 14900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117CS-3.3 GN_U3v1
+U 1 1 61C86CDC
+P 6850 12400
+F 0 "GN_U3v1" H 6800 12550 50  0000 C CNN
+F 1 "AMS1117CS-3.3" V 6600 11950 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6850 12600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6950 12150 50  0001 C CNN
+	1    6850 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C9987A
+P 6850 12800
+AR Path="/617AAF92/61C9987A" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61C9987A" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61C9987A" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61C9987A" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 6850 12550 50  0001 C CNN
+F 1 "GND" H 6855 12627 50  0000 C CNN
+F 2 "" H 6850 12800 50  0001 C CNN
+F 3 "" H 6850 12800 50  0001 C CNN
+	1    6850 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 12700 6850 12800
+$Comp
+L Connector_Generic:Conn_01x04 GN_J_USB1
+U 1 1 61CB5AAA
+P 8650 13200
+F 0 "GN_J_USB1" H 8730 13146 50  0000 L CNN
+F 1 "Conn_01x04" H 8730 13101 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8650 13200 50  0001 C CNN
+F 3 "~" H 8650 13200 50  0001 C CNN
+	1    8650 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 12400 8450 13100
+Wire Wire Line
+	8450 13300 7750 13300
+Wire Wire Line
+	7750 13300 7750 13850
+Wire Wire Line
+	7450 13200 7450 13950
+Wire Wire Line
+	5050 13350 5050 13650
+Connection ~ 5050 13650
+Wire Wire Line
+	8350 14300 7750 14300
+Wire Wire Line
+	7750 14300 7750 13850
+Connection ~ 7750 13850
+Wire Wire Line
+	7450 13950 7450 14100
+Wire Wire Line
+	7450 14100 8350 14100
+Connection ~ 7450 13950
+Wire Wire Line
+	4800 13950 7450 13950
+Wire Wire Line
+	8950 14600 9000 14600
+Wire Wire Line
+	9000 14600 9000 14900
+Wire Wire Line
+	4800 14050 4800 14250
+Wire Wire Line
+	4800 14250 4500 14250
+$Comp
+L Device:C GN_C1
+U 1 1 61CD9E87
+P 5050 14250
+F 0 "GN_C1" H 5165 14296 50  0000 L CNN
+F 1 "10nF" H 5165 14205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5088 14100 50  0001 C CNN
+F 3 "~" H 5050 14250 50  0001 C CNN
+	1    5050 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 13650 5050 14100
+Wire Wire Line
+	5050 14400 4500 14400
+Connection ~ 4500 14400
+Wire Wire Line
+	4500 14400 4500 14500
+$Comp
+L power:GND #PWR?
+U 1 1 61CDF0BF
+P 8450 13500
+AR Path="/617AAF92/61CDF0BF" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61CDF0BF" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61CDF0BF" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61CDF0BF" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 8450 13250 50  0001 C CNN
+F 1 "GND" H 8455 13327 50  0000 C CNN
+F 2 "" H 8450 13500 50  0001 C CNN
+F 3 "" H 8450 13500 50  0001 C CNN
+	1    8450 13500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 13400 8450 13500
+Wire Wire Line
+	4800 13650 5050 13650
+Wire Wire Line
+	4800 13850 7750 13850
+Wire Wire Line
+	5250 13650 5050 13650
+Wire Wire Line
+	6550 12400 6350 12400
+Wire Wire Line
+	6350 12400 6350 13650
+Wire Wire Line
+	6350 14600 6350 13650
+Wire Wire Line
+	6350 14600 8350 14600
+Connection ~ 6350 13650
+Wire Wire Line
+	7150 12400 7750 12400
+Wire Wire Line
+	7750 12400 7750 12500
+Wire Wire Line
+	7450 13200 8450 13200
+Wire Wire Line
+	7750 12800 7750 13300
+Connection ~ 7750 13300
+Wire Wire Line
+	7750 12400 8450 12400
+Connection ~ 7750 12400
+Wire Notes Line
+	4250 15250 9300 15250
+Wire Notes Line
+	9300 15250 9300 12050
+Wire Notes Line
+	9300 12050 4250 12050
+Wire Notes Line
+	4250 12050 4250 15250
+Text Notes 4300 15200 0    50   ~ 0
+USB (5V) to 3.3V
+$Comp
+L Connector_Generic:Conn_01x08 QFN32_p1
+U 1 1 61D55514
+P 4900 8500
+F 0 "QFN32_p1" V 5000 8650 50  0000 C CNN
+F 1 "Conn_01x08" H 4818 7966 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4900 8500 50  0001 C CNN
+F 3 "~" H 4900 8500 50  0001 C CNN
+	1    4900 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 QFN32_p9
+U 1 1 61D59D93
+P 4900 9400
+F 0 "QFN32_p9" V 5000 9550 50  0000 C CNN
+F 1 "Conn_01x08" H 4818 8866 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4900 9400 50  0001 C CNN
+F 3 "~" H 4900 9400 50  0001 C CNN
+	1    4900 9400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 QFN32_p25
+U 1 1 61D5A510
+P 8350 9200
+F 0 "QFN32_p25" V 8450 9350 50  0000 C CNN
+F 1 "Conn_01x08" H 8268 8666 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8350 9200 50  0001 C CNN
+F 3 "~" H 8350 9200 50  0001 C CNN
+	1    8350 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 QFN32_p17
+U 1 1 61D5B0EC
+P 8350 8250
+F 0 "QFN32_p17" V 8450 8400 50  0000 C CNN
+F 1 "Conn_01x08" H 8268 7716 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8350 8250 50  0001 C CNN
+F 3 "~" H 8350 8250 50  0001 C CNN
+	1    8350 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L gowin_fpga:GWU2X QFN32
+U 1 1 61DB2647
+P 6500 8650
+F 0 "QFN32" H 5850 9400 50  0000 C CNN
+F 1 "GWU2X" H 7100 7850 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 6281 9315 50  0001 C CNN
+F 3 "" H 6281 9315 50  0001 C CNN
+	1    6500 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 8400 5400 8400
+Wire Wire Line
+	5400 8400 5400 8800
+Wire Wire Line
+	5400 8800 5100 8800
+Wire Wire Line
+	6200 7850 6200 7750
+Wire Wire Line
+	6200 7750 5350 7750
+Wire Wire Line
+	5350 7750 5350 8700
+Wire Wire Line
+	5350 8700 5100 8700
+Wire Wire Line
+	6250 9450 5300 9450
+Wire Wire Line
+	5300 9450 5300 8600
+Wire Wire Line
+	5300 8600 5100 8600
+Wire Wire Line
+	5100 8500 5700 8500
+Wire Wire Line
+	5700 8500 5700 8600
+Wire Wire Line
+	5700 8700 5500 8700
+Wire Wire Line
+	5500 8700 5500 8550
+Wire Wire Line
+	5500 8550 5250 8550
+Wire Wire Line
+	5250 8550 5250 8400
+Wire Wire Line
+	5250 8400 5100 8400
+Wire Wire Line
+	5100 8300 5300 8300
+Wire Wire Line
+	5300 8300 5300 7700
+Wire Wire Line
+	5300 7700 6500 7700
+Wire Wire Line
+	6500 7700 6500 7850
+Wire Wire Line
+	6300 7850 6300 7650
+Wire Wire Line
+	6300 7650 5250 7650
+Wire Wire Line
+	5250 7650 5250 8200
+Wire Wire Line
+	5250 8200 5100 8200
+Wire Wire Line
+	5100 8100 5100 7550
+Wire Wire Line
+	5100 7550 7600 7550
+Wire Wire Line
+	7600 7550 7600 9200
+Wire Wire Line
+	7600 9200 7350 9200
+Wire Wire Line
+	7350 9100 7500 9100
+Wire Wire Line
+	7500 9100 7500 10150
+Wire Wire Line
+	7500 10150 5100 10150
+Wire Wire Line
+	5100 10150 5100 9700
+Wire Wire Line
+	5100 9600 5450 9600
+Wire Wire Line
+	5450 9600 5450 8800
+Wire Wire Line
+	5450 8800 5700 8800
+Wire Wire Line
+	6600 7850 6600 7450
+Wire Wire Line
+	6600 7450 4650 7450
+Wire Wire Line
+	4650 7450 4650 8900
+Wire Wire Line
+	4650 8900 5250 8900
+Wire Wire Line
+	5250 8900 5250 9500
+Wire Wire Line
+	5250 9500 5100 9500
+Wire Wire Line
+	5700 8900 5350 8900
+Wire Wire Line
+	5350 8900 5350 9400
+Wire Wire Line
+	5350 9400 5100 9400
+Wire Wire Line
+	5500 9300 5500 9000
+Wire Wire Line
+	5500 9000 5700 9000
+Wire Wire Line
+	5100 9300 5500 9300
+Wire Wire Line
+	5400 9200 5400 9100
+Wire Wire Line
+	5400 9100 5700 9100
+Wire Wire Line
+	5100 9200 5400 9200
+Wire Wire Line
+	5700 9200 5550 9200
+Wire Wire Line
+	5550 9200 5550 9150
+Wire Wire Line
+	5550 9150 5200 9150
+Wire Wire Line
+	5200 9150 5200 9100
+Wire Wire Line
+	5200 9100 5100 9100
+Wire Wire Line
+	7350 8900 7550 8900
+Wire Wire Line
+	7550 8900 7550 10200
+Wire Wire Line
+	7550 10200 5150 10200
+Wire Wire Line
+	5150 10200 5150 9000
+Wire Wire Line
+	5150 9000 5100 9000
+Wire Wire Line
+	7350 8800 8150 8800
+Wire Wire Line
+	8150 8800 8150 8900
+Wire Wire Line
+	5700 9300 5700 9950
+Wire Wire Line
+	6700 7850 6700 7600
+Wire Wire Line
+	6700 7600 7900 7600
+Wire Wire Line
+	7900 7600 7900 9100
+Wire Wire Line
+	7350 8500 7850 8500
+Wire Wire Line
+	7850 8500 7850 9200
+Wire Wire Line
+	7350 8300 7800 8300
+Wire Wire Line
+	6800 7850 6800 7650
+Wire Wire Line
+	6800 7650 7750 7650
+Wire Wire Line
+	7900 9100 8150 9100
+Wire Wire Line
+	8150 9200 7850 9200
+Wire Wire Line
+	8150 9400 7800 9400
+Wire Wire Line
+	7800 8300 7800 9400
+Wire Wire Line
+	8150 9300 7700 9300
+Wire Wire Line
+	7700 9300 7700 8400
+Wire Wire Line
+	7700 8400 7350 8400
+Wire Wire Line
+	7750 9500 8150 9500
+Wire Wire Line
+	7750 7650 7750 9500
+Wire Wire Line
+	8150 9600 6850 9600
+Wire Wire Line
+	6850 9600 6850 9450
+Wire Wire Line
+	6550 9450 6550 9800
+Wire Wire Line
+	6550 9800 8650 9800
+Wire Wire Line
+	8650 9800 8650 7750
+Wire Wire Line
+	8650 7750 8150 7750
+Wire Wire Line
+	8150 7750 8150 7950
+Wire Wire Line
+	6650 9450 6650 9750
+Wire Wire Line
+	6650 9750 8000 9750
+Wire Wire Line
+	8000 9750 8000 8150
+Wire Wire Line
+	8000 8150 8150 8150
+Wire Wire Line
+	6750 9450 6750 9700
+Wire Wire Line
+	6750 9700 8050 9700
+Wire Wire Line
+	8050 9700 8050 8250
+Wire Wire Line
+	8050 8250 8150 8250
+Wire Wire Line
+	8150 8350 7950 8350
+Wire Wire Line
+	7950 8350 7950 7400
+Wire Wire Line
+	7950 7400 5400 7400
+Wire Wire Line
+	5400 7400 5400 8300
+Wire Wire Line
+	5400 8300 5700 8300
+Wire Wire Line
+	5700 8200 5450 8200
+Wire Wire Line
+	5450 8200 5450 7350
+Wire Wire Line
+	5450 7350 8100 7350
+Wire Wire Line
+	8100 7350 8100 8450
+Wire Wire Line
+	8100 8450 8150 8450
+Wire Wire Line
+	6900 7850 7450 7850
+Wire Wire Line
+	7450 7850 7450 8550
+Wire Wire Line
+	7450 8550 8150 8550
+Wire Wire Line
+	8150 8650 7650 8650
+Wire Wire Line
+	7650 8650 7650 7300
+Wire Wire Line
+	7650 7300 5550 7300
+Wire Wire Line
+	5550 7300 5550 8100
+Wire Wire Line
+	5550 8100 5700 8100
+Wire Notes Line
+	8950 7200 8950 10650
+Wire Notes Line
+	8950 10650 4150 10650
+Wire Notes Line
+	4150 10650 4150 7200
+Wire Notes Line
+	4150 7200 8950 7200
+Text Notes 4200 10600 0    50   ~ 0
+QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm TO DIP
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EAD5DD
+P 8450 12300
+AR Path="/617A611E/61EAD5DD" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61EAD5DD" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61EAD5DD" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61EAD5DD" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 8450 12150 50  0001 C CNN
+F 1 "+3V3" H 8465 12473 50  0000 C CNN
+F 2 "" H 8450 12300 50  0001 C CNN
+F 3 "" H 8450 12300 50  0001 C CNN
+	1    8450 12300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 12300 8450 12400
+Connection ~ 8450 12400
+Wire Notes Line
+	22050 3850 22050 10700
+Wire Notes Line
+	22050 10700 16900 10700
+Wire Notes Line
+	16900 10700 16900 3850
+Wire Notes Line
+	16900 3850 22050 3850
+Text Notes 17000 10650 0    50   ~ 0
+Raspberry Pi, Arduino and BeagleBone Headers
+$Comp
+L power:GND #PWR?
+U 1 1 620D8531
+P 6350 9600
+AR Path="/617AAF92/620D8531" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/620D8531" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/620D8531" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/620D8531" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 6350 9350 50  0001 C CNN
+F 1 "GND" H 6355 9427 50  0000 C CNN
+F 2 "" H 6350 9600 50  0001 C CNN
+F 3 "" H 6350 9600 50  0001 C CNN
+	1    6350 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 9450 6350 9600
+$Comp
+L Connector_Generic:Conn_02x40_Counter_Clockwise GN_PJ8
+U 1 1 62144D07
+P 12750 14300
+F 0 "GN_PJ8" H 12750 16350 50  0000 L CNN
+F 1 "Conn_02x40_Counter_Clockwise" V 12845 12213 50  0001 R CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x40_P1.00mm_Vertical_SMD" H 12750 14300 50  0001 C CNN
+F 3 "~" H 12750 14300 50  0001 C CNN
+	1    12750 14300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10550 8650
+Wire Wire Line
+	9850 8650 10550 8650
+Wire Wire Line
+	9850 10550 9850 8650
+Wire Wire Line
+	10850 10550 9850 10550
+Connection ~ 12450 9600
+Wire Wire Line
+	12450 11250 11450 11250
+Wire Wire Line
+	12450 9600 12450 11250
+Connection ~ 12550 9650
+Wire Wire Line
+	12550 11150 11450 11150
+Wire Wire Line
+	12550 9650 12550 11150
+Connection ~ 11600 9250
+Wire Wire Line
+	11600 11050 11450 11050
+Wire Wire Line
+	11600 9250 11600 11050
+Connection ~ 11500 9150
+Wire Wire Line
+	11500 10950 11450 10950
+Wire Wire Line
+	11500 9150 11500 10950
+Connection ~ 12400 9550
+Wire Wire Line
+	12400 10850 11450 10850
+Wire Wire Line
+	12400 9550 12400 10850
+Wire Wire Line
+	10950 11750 10950 11950
+$Comp
+L power:GND #PWR?
+U 1 1 620767E3
+P 10950 11950
+AR Path="/617AAF92/620767E3" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/620767E3" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/620767E3" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/620767E3" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 10950 11700 50  0001 C CNN
+F 1 "GND" H 10955 11777 50  0000 C CNN
+F 2 "" H 10950 11950 50  0001 C CNN
+F 3 "" H 10950 11950 50  0001 C CNN
+	1    10950 11950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	12900 8350 12950 12150
+$Comp
+L Connector:Microsemi_FlashPro-JTAG-10 GN_U2_JTAG2
+U 1 1 62005640
+P 10950 11150
+F 0 "GN_U2_JTAG2" V 10550 11200 50  0000 R CNN
+F 1 "Microsemi_FlashPro-JTAG-10" H 10570 11105 50  0001 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" V 10800 11300 50  0001 C CNN
+F 3 "https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an" H 9675 10600 50  0001 C CNN
+	1    10950 11150
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 7700 0    50   ~ 0
+Power and Ground Rails\n
+Wire Notes Line
+	9450 7800 9450 6550
+Wire Notes Line
+	12000 7800 9450 7800
+Wire Notes Line
+	12000 6550 12000 7800
+Wire Notes Line
+	9450 6550 12000 6550
+Text Notes 11400 12150 0    50   ~ 0
+SW10 & Microsemi ISP JTAG connectors
+Wire Notes Line
+	9500 12150 9500 8350
+Wire Notes Line
+	12950 12150 9500 12150
+Wire Notes Line
+	9500 8350 12900 8350
+Wire Wire Line
+	12400 9550 12400 9400
+Wire Wire Line
+	11350 9550 12400 9550
+Wire Wire Line
+	11350 8950 11350 9550
+Wire Wire Line
+	11050 8950 11350 8950
+Wire Wire Line
+	12450 9600 11450 9600
+Wire Wire Line
+	12450 9300 12450 9600
+Wire Wire Line
+	12400 9300 12450 9300
+Wire Wire Line
+	11500 8800 11500 9150
+Wire Wire Line
+	12650 8800 11500 8800
+Wire Wire Line
+	12650 9100 12650 8800
+Wire Wire Line
+	12400 9100 12650 9100
+Wire Wire Line
+	11600 8700 11600 9250
+Wire Wire Line
+	12550 8700 11600 8700
+Wire Wire Line
+	12550 9000 12550 8700
+Wire Wire Line
+	12400 9000 12550 9000
+Wire Wire Line
+	11400 9650 12550 9650
+Wire Wire Line
+	12550 9200 12550 9650
+Wire Wire Line
+	12400 9200 12550 9200
+Wire Wire Line
+	10050 9250 10150 9250
+Wire Wire Line
+	10050 9900 10050 9250
+Wire Wire Line
+	11800 9900 10050 9900
+Wire Wire Line
+	11800 9300 11800 9900
+Wire Wire Line
+	11900 9300 11800 9300
+Wire Wire Line
+	11900 9950 11900 9400
+Wire Wire Line
+	10450 9950 11900 9950
+Wire Wire Line
+	10450 9850 10450 9950
+Wire Wire Line
+	11700 9200 11700 10000
+Connection ~ 11700 9200
+Wire Wire Line
+	11900 9200 11700 9200
+Wire Wire Line
+	11700 9100 11700 9200
+Wire Wire Line
+	11700 9100 11900 9100
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even GN_U2_JTAG3
+U 1 1 61F6F25D
+P 12100 9200
+F 0 "GN_U2_JTAG3" H 12150 9525 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 12150 9526 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 12100 9200 50  0001 C CNN
+F 3 "~" H 12100 9200 50  0001 C CNN
+	1    12100 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 9450 11450 9600
+Wire Wire Line
+	11050 9450 11450 9450
+Wire Wire Line
+	11400 9350 11400 9650
+Wire Wire Line
+	11050 9350 11400 9350
+Wire Wire Line
+	11050 9150 11500 9150
+Wire Wire Line
+	10550 10000 10550 10100
+Connection ~ 10550 10000
+$Comp
+L power:GND #PWR?
+U 1 1 61F2E75F
+P 10550 10100
+AR Path="/617AAF92/61F2E75F" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61F2E75F" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61F2E75F" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61F2E75F" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 10550 9850 50  0001 C CNN
+F 1 "GND" H 10555 9927 50  0000 C CNN
+F 2 "" H 10550 10100 50  0001 C CNN
+F 3 "" H 10550 10100 50  0001 C CNN
+	1    10550 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 10000 10550 9850
+Wire Wire Line
+	11700 10000 10550 10000
+Wire Wire Line
+	11050 9250 11600 9250
+Wire Wire Line
+	11900 8650 11900 9000
+Wire Wire Line
+	10550 8650 11900 8650
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 GN_U2_JTAG1
+U 1 1 61EF054E
+P 10550 9250
+F 0 "GN_U2_JTAG1" V 10100 9800 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 11550 8700 50  0000 R CNN
+F 2 "JTAG_Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical" H 10550 9250 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 10200 8000 50  0001 C CNN
+	1    10550 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 7250 11150 7350
+Connection ~ 11150 7250
+Wire Wire Line
+	11150 7150 11150 7250
+Connection ~ 11150 7150
+Wire Wire Line
+	11150 7050 11150 7150
+Connection ~ 11150 7050
+Wire Wire Line
+	11150 6950 11150 7050
+Connection ~ 11150 6950
+Wire Wire Line
+	11150 6850 11150 6950
+Connection ~ 11150 6850
+Wire Wire Line
+	11150 6750 11150 6850
+Connection ~ 11150 6750
+Connection ~ 11150 7350
+Wire Wire Line
+	11150 6650 11150 6750
+Wire Wire Line
+	9800 7300 9800 7400
+Connection ~ 9800 7300
+Wire Wire Line
+	9800 7200 9800 7300
+Connection ~ 9800 7200
+Connection ~ 9800 7100
+Wire Wire Line
+	9800 7100 9800 7200
+Connection ~ 9800 7000
+Wire Wire Line
+	9800 7000 9800 7100
+Connection ~ 9800 6900
+Wire Wire Line
+	9800 6900 9800 7000
+Connection ~ 9800 6800
+Wire Wire Line
+	9800 6800 9800 6900
+Wire Wire Line
+	9800 6700 9800 6800
+$Comp
+L Connector_Generic:Conn_01x08 GN_U2_PWR1
+U 1 1 61E9FF09
+P 9600 7100
+F 0 "GN_U2_PWR1" V 9700 7250 50  0000 C CNN
+F 1 "Conn_01x08" H 9518 6566 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9600 7100 50  0001 C CNN
+F 3 "~" H 9600 7100 50  0001 C CNN
+	1    9600 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11150 7350 11150 7500
+$Comp
+L power:GND #PWR?
+U 1 1 61EA3055
+P 11150 7500
+AR Path="/617AAF92/61EA3055" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61EA3055" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61EA3055" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61EA3055" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 11150 7250 50  0001 C CNN
+F 1 "GND" H 11155 7327 50  0000 C CNN
+F 2 "" H 11150 7500 50  0001 C CNN
+F 3 "" H 11150 7500 50  0001 C CNN
+	1    11150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 GN_U2_GND1
+U 1 1 61EA0E74
+P 11350 6950
+F 0 "GN_U2_GND1" V 11450 6750 50  0000 C CNN
+F 1 "Conn_01x08" H 11268 6416 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11350 6950 50  0001 C CNN
+F 3 "~" H 11350 6950 50  0001 C CNN
+	1    11350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even GN_PJ3
+U 1 1 621AE897
+P 10900 15150
+F 0 "GN_PJ3" H 10950 15575 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10950 15576 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x08_P1.00mm_Vertical_SMD" H 10900 15150 50  0001 C CNN
+F 3 "~" H 10900 15150 50  0001 C CNN
+	1    10900 15150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even GN_PJ4
+U 1 1 621B3DF5
+P 11650 15150
+F 0 "GN_PJ4" H 11700 15575 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 11700 15576 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x08_P1.00mm_Vertical_SMD" H 11650 15150 50  0001 C CNN
+F 3 "~" H 11650 15150 50  0001 C CNN
+	1    11650 15150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even GN_PJ7
+U 1 1 621B47E8
+P 12400 15150
+F 0 "GN_PJ7" H 12450 15575 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 12450 15576 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x08_P1.00mm_Vertical_SMD" H 12400 15150 50  0001 C CNN
+F 3 "~" H 12400 15150 50  0001 C CNN
+	1    12400 15150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9700 12500 15050 12500
+Wire Notes Line
+	15050 12500 15050 15700
+Wire Notes Line
+	15050 15700 9700 15700
+Wire Notes Line
+	9700 15700 9700 12500
+Text Notes 13050 15600 0    50   ~ 0
+Prototyping Area Through Hole and SMD headers.
+Wire Wire Line
+	10200 7300 10200 7400
+Connection ~ 10200 7300
+Wire Wire Line
+	10200 7200 10200 7300
+Connection ~ 10200 7200
+Connection ~ 10200 7100
+Wire Wire Line
+	10200 7100 10200 7200
+Connection ~ 10200 7000
+Wire Wire Line
+	10200 7000 10200 7100
+Connection ~ 10200 6900
+Wire Wire Line
+	10200 6900 10200 7000
+Connection ~ 10200 6800
+Wire Wire Line
+	10200 6800 10200 6900
+Wire Wire Line
+	10200 6700 10200 6800
+$Comp
+L Connector_Generic:Conn_01x08 GN_U2_PWR2
+U 1 1 62807AF1
+P 10000 7100
+F 0 "GN_U2_PWR2" V 10100 7250 50  0000 C CNN
+F 1 "Conn_01x08" H 9918 6566 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10000 7100 50  0001 C CNN
+F 3 "~" H 10000 7100 50  0001 C CNN
+	1    10000 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10650 7300 10650 7400
+Connection ~ 10650 7300
+Wire Wire Line
+	10650 7200 10650 7300
+Connection ~ 10650 7200
+Connection ~ 10650 7100
+Wire Wire Line
+	10650 7100 10650 7200
+Connection ~ 10650 7000
+Wire Wire Line
+	10650 7000 10650 7100
+Connection ~ 10650 6900
+Wire Wire Line
+	10650 6900 10650 7000
+Connection ~ 10650 6800
+Wire Wire Line
+	10650 6800 10650 6900
+Wire Wire Line
+	10650 6700 10650 6800
+$Comp
+L Connector_Generic:Conn_01x08 GN_U2_PWR3
+U 1 1 62821A6A
+P 10450 7100
+F 0 "GN_U2_PWR3" V 10550 7250 50  0000 C CNN
+F 1 "Conn_01x08" H 10368 6566 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10450 7100 50  0001 C CNN
+F 3 "~" H 10450 7100 50  0001 C CNN
+	1    10450 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11600 7250 11600 7350
+Connection ~ 11600 7250
+Wire Wire Line
+	11600 7150 11600 7250
+Connection ~ 11600 7150
+Wire Wire Line
+	11600 7050 11600 7150
+Connection ~ 11600 7050
+Wire Wire Line
+	11600 6950 11600 7050
+Connection ~ 11600 6950
+Wire Wire Line
+	11600 6850 11600 6950
+Connection ~ 11600 6850
+Wire Wire Line
+	11600 6750 11600 6850
+Connection ~ 11600 6750
+Connection ~ 11600 7350
+Wire Wire Line
+	11600 6650 11600 6750
+Wire Wire Line
+	11600 7350 11600 7500
+$Comp
+L power:GND #PWR?
+U 1 1 62869579
+P 11600 7500
+AR Path="/617AAF92/62869579" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/62869579" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/62869579" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/62869579" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 11600 7250 50  0001 C CNN
+F 1 "GND" H 11605 7327 50  0000 C CNN
+F 2 "" H 11600 7500 50  0001 C CNN
+F 3 "" H 11600 7500 50  0001 C CNN
+	1    11600 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 GN_U2_GND2
+U 1 1 6286957F
+P 11800 6950
+F 0 "GN_U2_GND2" V 11900 6750 50  0000 C CNN
+F 1 "Conn_01x08" H 11718 6416 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11800 6950 50  0001 C CNN
+F 3 "~" H 11800 6950 50  0001 C CNN
+	1    11800 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 9000 7500 9000
+Wire Wire Line
+	7500 9000 7500 8600
+Wire Wire Line
+	7500 8600 7350 8600
+Wire Wire Line
+	8150 8050 8050 8050
+Wire Wire Line
+	8050 8050 8050 7650
+Wire Wire Line
+	8050 7650 8700 7650
+Wire Wire Line
+	8700 7650 8700 9950
+Wire Wire Line
+	5700 9950 8700 9950
+$Comp
+L Softgalaxy_Library:GW1NZ GN_CS16
+U 1 1 61DBB284
+P 2250 1850
+F 0 "GN_CS16" H 1600 2300 50  0000 L CNN
+F 1 "GW1NZ" H 2150 1900 50  0001 L CNN
+F 2 "Softgalaxy_Footprints:CS16" H 2150 1750 50  0001 C CNN
+F 3 "" H 2150 1750 50  0001 C CNN
+	1    2250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_SAML:ATSAML21E18B-MUT GN_QFN32_1
+U 1 1 61DED110
+P 3950 4850
+F 0 "GN_QFN32_1" H 3900 4800 50  0000 C CNN
+F 1 "ATSAML21E18B-MUT" H 3950 3670 50  0001 C CNN
+F 2 "Softgalaxy_Footprints:FN32" H 5150 5750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf" H 3950 4850 50  0001 C CNN
+	1    3950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_SAML:ATSAML21G18B-MUT GN_QFN48
+U 1 1 61E3C269
+P 11150 3350
+F 0 "GN_QFN48" H 11150 3300 50  0000 C CNN
+F 1 "ATSAML21G18B-MUT" H 11150 1270 50  0001 C CNN
+F 2 "Softgalaxy_Footprints:QN48" H 12450 5150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf" H 11150 3350 50  0001 C CNN
+	1    11150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 GN_CS16_JD1
+U 1 1 61EA8152
+P 2200 800
+F 0 "GN_CS16_JD1" V 2118 512 50  0000 R CNN
+F 1 "Conn_01x04" V 2073 512 50  0001 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 2200 800 50  0001 C CNN
+F 3 "~" H 2200 800 50  0001 C CNN
+	1    2200 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1350 2100 1000
+Wire Wire Line
+	2200 1000 2200 1350
+Wire Wire Line
+	2300 1350 2300 1000
+Wire Wire Line
+	2400 1000 2400 1350
+$Comp
+L Connector_Generic:Conn_01x04 GN_CS16_JC1
+U 1 1 61EEF530
+P 3450 1700
+F 0 "GN_CS16_JC1" H 3530 1646 50  0000 L CNN
+F 1 "Conn_01x04" V 3323 1412 50  0001 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 3450 1700 50  0001 C CNN
+F 3 "~" H 3450 1700 50  0001 C CNN
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 GN_CS16_JA1
+U 1 1 61EEFE16
+P 900 1850
+F 0 "GN_CS16_JA1" H 818 1517 50  0000 C CNN
+F 1 "Conn_01x04" V 773 1562 50  0001 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 900 1850 50  0001 C CNN
+F 3 "~" H 900 1850 50  0001 C CNN
+	1    900  1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 GN_CS16_JB1
+U 1 1 61EF0623
+P 2300 2850
+F 0 "GN_CS16_JB1" V 2218 3030 50  0000 L CNN
+F 1 "Conn_01x04" V 2173 2562 50  0001 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 2300 2850 50  0001 C CNN
+F 3 "~" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 1650 1300 1650
+Wire Wire Line
+	1300 1650 1300 1950
+Wire Wire Line
+	1300 1950 1100 1950
+Wire Wire Line
+	1100 1850 1500 1850
+Wire Wire Line
+	1500 1850 1500 1750
+Wire Wire Line
+	1500 1750 1750 1750
+Wire Wire Line
+	1400 1750 1400 1800
+Wire Wire Line
+	1400 1800 1750 1800
+Wire Wire Line
+	1750 1800 1750 1850
+Wire Wire Line
+	1100 1650 1250 1650
+Wire Wire Line
+	1250 1650 1250 1900
+Wire Wire Line
+	1250 1900 1750 1900
+Wire Wire Line
+	1750 1900 1750 1950
+Wire Wire Line
+	1100 1750 1400 1750
+Wire Wire Line
+	2750 1650 3050 1650
+Wire Wire Line
+	3050 1650 3050 1600
+Wire Wire Line
+	3050 1600 3250 1600
+Wire Wire Line
+	3250 1700 2750 1700
+Wire Wire Line
+	2750 1700 2750 1750
+Wire Wire Line
+	2750 1850 2950 1850
+Wire Wire Line
+	2950 1850 2950 1800
+Wire Wire Line
+	2950 1800 3250 1800
+Wire Wire Line
+	3250 1900 2750 1900
+Wire Wire Line
+	2750 1900 2750 1950
+Wire Wire Line
+	2100 2300 2100 2450
+Wire Wire Line
+	2100 2450 2400 2450
+Wire Wire Line
+	2400 2450 2400 2650
+Wire Wire Line
+	2200 2300 2200 2500
+Wire Wire Line
+	2200 2500 2300 2500
+Wire Wire Line
+	2300 2500 2300 2650
+Wire Wire Line
+	2300 2300 2300 2400
+Wire Wire Line
+	2300 2400 2150 2400
+Wire Wire Line
+	2150 2400 2150 2650
+Wire Wire Line
+	2150 2650 2200 2650
+Wire Wire Line
+	2400 2300 2400 2400
+Wire Wire Line
+	2400 2400 2350 2400
+Wire Wire Line
+	2350 2400 2350 2600
+Wire Wire Line
+	2350 2600 2100 2600
+Wire Wire Line
+	2100 2600 2100 2650
+$Comp
+L Connector_Generic:Conn_01x08 GN_QFN32_J2
+U 1 1 6201CEE0
+P 1050 5450
+F 0 "GN_QFN32_J2" V 1150 5600 50  0000 C CNN
+F 1 "Conn_01x08" H 968 4916 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 1050 5450 50  0001 C CNN
+F 3 "~" H 1050 5450 50  0001 C CNN
+	1    1050 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 GN_QFN48_J1
+U 1 1 6201D98A
+P 8400 2550
+F 0 "GN_QFN48_J1" V 8500 2700 50  0000 C CNN
+F 1 "Conn_01x012" H 8318 2016 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8400 2550 50  0001 C CNN
+F 3 "~" H 8400 2550 50  0001 C CNN
+	1    8400 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 GN_QFN48_J2
+U 1 1 6201E540
+P 8400 3900
+F 0 "GN_QFN48_J2" V 8500 4050 50  0000 C CNN
+F 1 "Conn_01x012" H 8318 3366 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8400 3900 50  0001 C CNN
+F 3 "~" H 8400 3900 50  0001 C CNN
+	1    8400 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 GN_QFN48_J3
+U 1 1 6201EDEE
+P 14250 2450
+F 0 "GN_QFN48_J3" V 14350 2600 50  0000 C CNN
+F 1 "Conn_01x012" H 14168 1916 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 14250 2450 50  0001 C CNN
+F 3 "~" H 14250 2450 50  0001 C CNN
+	1    14250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 GN_QFN48_J4
+U 1 1 6201FD40
+P 14250 3950
+F 0 "GN_QFN48_J4" V 14350 4100 50  0000 C CNN
+F 1 "Conn_01x012" H 14168 3416 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 14250 3950 50  0001 C CNN
+F 3 "~" H 14250 3950 50  0001 C CNN
+	1    14250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 GN_QFN32_J1
+U 1 1 620207E2
+P 1050 4450
+F 0 "GN_QFN32_J1" V 1150 4600 50  0000 C CNN
+F 1 "Conn_01x08" H 968 3916 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 1050 4450 50  0001 C CNN
+F 3 "~" H 1050 4450 50  0001 C CNN
+	1    1050 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 GN_QFN32_J4
+U 1 1 6202343F
+P 7000 4350
+F 0 "GN_QFN32_J4" V 7100 4500 50  0000 C CNN
+F 1 "Conn_01x08" H 6918 3816 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 7000 4350 50  0001 C CNN
+F 3 "~" H 7000 4350 50  0001 C CNN
+	1    7000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 GN_QFN32_J3
+U 1 1 62023445
+P 7000 5350
+F 0 "GN_QFN32_J3" V 7100 5500 50  0000 C CNN
+F 1 "Conn_01x08" H 6918 4816 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 7000 5350 50  0001 C CNN
+F 3 "~" H 7000 5350 50  0001 C CNN
+	1    7000 5350
+	1    0    0    -1  
+$EndComp
+Text Label 2950 4350 2    50   ~ 0
+GN_QFN32_p2
+Text Label 2950 4450 2    50   ~ 0
+GN_QFN32_p3
+Text Label 2950 4750 2    50   ~ 0
+GN_QFN32_p6
+Text Label 2950 4850 2    50   ~ 0
+GN_QFN32_p7
+Text Label 2950 4950 2    50   ~ 0
+GN_QFN32_p8
+Text Label 2950 5050 2    50   ~ 0
+GN_QFN32_p11
+Text Label 2950 5150 2    50   ~ 0
+GN_QFN32_p12
+Text Label 2950 5250 2    50   ~ 0
+GN_QFN32_p13
+Text Label 2950 5350 2    50   ~ 0
+GN_QFN32_p14
+Text Label 2950 5450 2    50   ~ 0
+GN_QFN32_p26
+Text Label 4950 5450 0    50   ~ 0
+GN_QFN32_p32
+Text Label 4950 5350 0    50   ~ 0
+GN_QFN32_p31
+Text Label 4950 5250 0    50   ~ 0
+GN_QFN32_p25
+Text Label 4950 5150 0    50   ~ 0
+GN_QFN32_p24
+Text Label 4950 5050 0    50   ~ 0
+GN_QFN32_p23
+Text Label 4950 4950 0    50   ~ 0
+GN_QFN32_p22
+Text Label 4950 4850 0    50   ~ 0
+GN_QFN32_p21
+Text Label 4950 4750 0    50   ~ 0
+GN_QFN32_p20
+Text Label 4950 4650 0    50   ~ 0
+GN_QFN32_p19
+Text Label 4950 4550 0    50   ~ 0
+GN_QFN32_p18
+Text Label 4950 4450 0    50   ~ 0
+GN_QFN32_p17
+Text Label 4950 4350 0    50   ~ 0
+GN_QFN32_p16
+Text Label 4950 4250 0    50   ~ 0
+GN_QFN32_p15
+Text Label 2950 4250 2    50   ~ 0
+GN_QFN32_p1
+Text Label 2950 4550 2    50   ~ 0
+GN_QFN32_p4
+Text Label 2950 4650 2    50   ~ 0
+GN_QFN32_p5
+Text Label 3950 5850 3    50   ~ 0
+GN_QFN32_p10
+Text Label 4150 5850 3    50   ~ 0
+GN_QFN32_p28
+Text Label 3750 3850 1    50   ~ 0
+GN_QFN32_p9
+Text Label 3850 3850 1    50   ~ 0
+GN_QFN32_p27
+Text Label 4050 3850 1    50   ~ 0
+GN_QFN32_p29
+Text Label 4150 3850 1    50   ~ 0
+GN_QFN32_p30
+Text Label 1250 4650 0    50   ~ 0
+GN_QFN32_p2
+Text Label 1250 4550 0    50   ~ 0
+GN_QFN32_p3
+Text Label 1250 4250 0    50   ~ 0
+GN_QFN32_p6
+Text Label 1250 4150 0    50   ~ 0
+GN_QFN32_p7
+Text Label 1250 4050 0    50   ~ 0
+GN_QFN32_p8
+Text Label 1250 4750 0    50   ~ 0
+GN_QFN32_p1
+Text Label 1250 4450 0    50   ~ 0
+GN_QFN32_p4
+Text Label 1250 4350 0    50   ~ 0
+GN_QFN32_p5
+Text Label 1250 5750 0    50   ~ 0
+GN_QFN32_p9
+Text Label 1250 5650 0    50   ~ 0
+GN_QFN32_p10
+Text Label 1250 5550 0    50   ~ 0
+GN_QFN32_p11
+Text Label 1250 5450 0    50   ~ 0
+GN_QFN32_p12
+Text Label 1250 5350 0    50   ~ 0
+GN_QFN32_p13
+Text Label 1250 5250 0    50   ~ 0
+GN_QFN32_p14
+Text Label 1250 5150 0    50   ~ 0
+GN_QFN32_p15
+Text Label 1250 5050 0    50   ~ 0
+GN_QFN32_p16
+Text Label 6800 4150 2    50   ~ 0
+GN_QFN32_p26
+Text Label 6800 4250 2    50   ~ 0
+GN_QFN32_p27
+Text Label 6800 4350 2    50   ~ 0
+GN_QFN32_p28
+Text Label 6800 4450 2    50   ~ 0
+GN_QFN32_p29
+Text Label 6800 4550 2    50   ~ 0
+GN_QFN32_p30
+Text Label 6800 4650 2    50   ~ 0
+GN_QFN32_p31
+Text Label 6800 4750 2    50   ~ 0
+GN_QFN32_p32
+Text Label 6800 4050 2    50   ~ 0
+GN_QFN32_p25
+Text Label 6800 5050 2    50   ~ 0
+GN_QFN32_p17
+Text Label 6800 5150 2    50   ~ 0
+GN_QFN32_p18
+Text Label 6800 5250 2    50   ~ 0
+GN_QFN32_p19
+Text Label 6800 5350 2    50   ~ 0
+GN_QFN32_p20
+Text Label 6800 5450 2    50   ~ 0
+GN_QFN32_p21
+Text Label 6800 5550 2    50   ~ 0
+GN_QFN32_p22
+Text Label 6800 5650 2    50   ~ 0
+GN_QFN32_p23
+Text Label 6800 5750 2    50   ~ 0
+GN_QFN32_p24
+Text Label 10150 1850 2    50   ~ 0
+GN_QFN48_p1
+Text Label 10150 1950 2    50   ~ 0
+GN_QFN48_p2
+Text Label 10150 2050 2    50   ~ 0
+GN_QFN48_p3
+Text Label 10150 2150 2    50   ~ 0
+GN_QFN48_p4
+Text Label 10150 2250 2    50   ~ 0
+GN_QFN48_p9
+Text Label 10150 2350 2    50   ~ 0
+GN_QFN48_p10
+Text Label 10150 2450 2    50   ~ 0
+GN_QFN48_p11
+Text Label 10150 2550 2    50   ~ 0
+GN_QFN48_p12
+Text Label 10150 2650 2    50   ~ 0
+GN_QFN48_p13
+Text Label 10150 2750 2    50   ~ 0
+GN_QFN48_p14
+Text Label 10150 2850 2    50   ~ 0
+GN_QFN48_p15
+Text Label 10150 2950 2    50   ~ 0
+GN_QFN48_p16
+Text Label 10150 3050 2    50   ~ 0
+GN_QFN48_p21
+Text Label 10150 3150 2    50   ~ 0
+GN_QFN48_p22
+Text Label 10150 3250 2    50   ~ 0
+GN_QFN48_p23
+Text Label 10150 3350 2    50   ~ 0
+GN_QFN48_p24
+Text Label 10150 3450 2    50   ~ 0
+GN_QFN48_p25
+Text Label 10150 3550 2    50   ~ 0
+GN_QFN48_p26
+Text Label 10150 3650 2    50   ~ 0
+GN_QFN48_p27
+Text Label 10150 3750 2    50   ~ 0
+GN_QFN48_p28
+Text Label 10150 3850 2    50   ~ 0
+GN_QFN48_p29
+Text Label 10150 3950 2    50   ~ 0
+GN_QFN48_p30
+Text Label 10150 4050 2    50   ~ 0
+GN_QFN48_p31
+Text Label 10150 4150 2    50   ~ 0
+GN_QFN48_p32
+Text Label 10150 4250 2    50   ~ 0
+GN_QFN48_p33
+Text Label 10150 4350 2    50   ~ 0
+GN_QFN48_p34
+Text Label 10150 4450 2    50   ~ 0
+GN_QFN48_p39
+Text Label 10150 4550 2    50   ~ 0
+GN_QFN48_p45
+Text Label 10150 4650 2    50   ~ 0
+GN_QFN48_p46
+Text Label 10150 4850 2    50   ~ 0
+GN_QFN48_p40
+Text Label 12150 3650 0    50   ~ 0
+GN_QFN48_p38
+Text Label 12150 3550 0    50   ~ 0
+GN_QFN48_p37
+Text Label 12150 3450 0    50   ~ 0
+GN_QFN48_p20
+Text Label 12150 3350 0    50   ~ 0
+GN_QFN48_p19
+Text Label 12150 3250 0    50   ~ 0
+GN_QFN48_p8
+Text Label 12150 3150 0    50   ~ 0
+GN_QFN48_p7
+Text Label 12150 3050 0    50   ~ 0
+GN_QFN48_p47
+Text Label 12150 2950 0    50   ~ 0
+GN_QFN48_p48
+Text Label 10850 1450 1    50   ~ 0
+GN_QFN48_p6
+Text Label 11050 1450 1    50   ~ 0
+GN_QFN48_p36
+Text Label 11250 1450 1    50   ~ 0
+GN_QFN48_p41
+Text Label 11350 1450 1    50   ~ 0
+GN_QFN48_p43
+Text Label 11450 1450 1    50   ~ 0
+GN_QFN48_p44
+Text Label 11050 5250 3    50   ~ 0
+GN_QFN48_p5
+Text Label 11250 5250 3    50   ~ 0
+GN_QFN48_p42
+Text Label 11350 5250 3    50   ~ 0
+GN_QFN48_p18
+Text Label 11500 5250 3    50   ~ 0
+GN_QFN48_p35
+Text Label 8600 3050 0    50   ~ 0
+GN_QFN48_p1
+Text Label 8600 2950 0    50   ~ 0
+GN_QFN48_p2
+Text Label 8600 2850 0    50   ~ 0
+GN_QFN48_p3
+Text Label 8600 2750 0    50   ~ 0
+GN_QFN48_p4
+Text Label 8600 2650 0    50   ~ 0
+GN_QFN48_p5
+Text Label 8600 2550 0    50   ~ 0
+GN_QFN48_p6
+Text Label 8600 2450 0    50   ~ 0
+GN_QFN48_p7
+Text Label 8600 2350 0    50   ~ 0
+GN_QFN48_p8
+Text Label 8600 2250 0    50   ~ 0
+GN_QFN48_p9
+Text Label 8600 2150 0    50   ~ 0
+GN_QFN48_p10
+Text Label 8600 2050 0    50   ~ 0
+GN_QFN48_p11
+Text Label 8600 1950 0    50   ~ 0
+GN_QFN48_p12
+Text Label 8600 4400 0    50   ~ 0
+GN_QFN48_p13
+Text Label 8600 4300 0    50   ~ 0
+GN_QFN48_p14
+Text Label 8600 4200 0    50   ~ 0
+GN_QFN48_p15
+Text Label 8600 4100 0    50   ~ 0
+GN_QFN48_p16
+Text Label 8600 3600 0    50   ~ 0
+GN_QFN48_p21
+Text Label 8600 3500 0    50   ~ 0
+GN_QFN48_p22
+Text Label 8600 3400 0    50   ~ 0
+GN_QFN48_p23
+Text Label 8600 3300 0    50   ~ 0
+GN_QFN48_p24
+Text Label 8600 4000 0    50   ~ 0
+GN_QFN48_p17
+Text Label 8600 3900 0    50   ~ 0
+GN_QFN48_p18
+Text Label 8600 3800 0    50   ~ 0
+GN_QFN48_p19
+Text Label 8600 3700 0    50   ~ 0
+GN_QFN48_p20
+Text Label 14050 1950 2    50   ~ 0
+GN_QFN48_p25
+Text Label 14050 2050 2    50   ~ 0
+GN_QFN48_p26
+Text Label 14050 2150 2    50   ~ 0
+GN_QFN48_p27
+Text Label 14050 2250 2    50   ~ 0
+GN_QFN48_p28
+Text Label 14050 2350 2    50   ~ 0
+GN_QFN48_p29
+Text Label 14050 2450 2    50   ~ 0
+GN_QFN48_p30
+Text Label 14050 2550 2    50   ~ 0
+GN_QFN48_p31
+Text Label 14050 2650 2    50   ~ 0
+GN_QFN48_p32
+Text Label 14050 2750 2    50   ~ 0
+GN_QFN48_p33
+Text Label 14050 2850 2    50   ~ 0
+GN_QFN48_p34
+Text Label 14050 2950 2    50   ~ 0
+GN_QFN48_p35
+Text Label 14050 3050 2    50   ~ 0
+GN_QFN48_p36
+Text Label 14050 3550 2    50   ~ 0
+GN_QFN48_p38
+Text Label 14050 3450 2    50   ~ 0
+GN_QFN48_p37
+Text Label 14050 3650 2    50   ~ 0
+GN_QFN48_p39
+Text Label 14050 3750 2    50   ~ 0
+GN_QFN48_p40
+Text Label 14050 3850 2    50   ~ 0
+GN_QFN48_p41
+Text Label 14050 4050 2    50   ~ 0
+GN_QFN48_p43
+Text Label 14050 4150 2    50   ~ 0
+GN_QFN48_p44
+Text Label 14050 3950 2    50   ~ 0
+GN_QFN48_p42
+Text Label 14050 4450 2    50   ~ 0
+GN_QFN48_p47
+Text Label 14050 4550 2    50   ~ 0
+GN_QFN48_p48
+Text Label 14050 4250 2    50   ~ 0
+GN_QFN48_p45
+Text Label 14050 4350 2    50   ~ 0
+GN_QFN48_p46
+Text Label 10950 1450 1    50   ~ 0
+GN_QFN48_p17
+$EndSCHEMATC

@@ -1,0 +1,16 @@
+### Module positions - created on 04/18/22 20:33:25 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref           Val               Package                                                PosX       PosY       Rot  Side
+LED_RPi_R1      4k7               R_0603_1608Metric                                   85.6874  -197.4342    0.0000  bottom
+LED_RPi_R2      4k7               R_0603_1608Metric                                   84.8614  -201.9554   90.0000  bottom
+PGQ256_BGA-8x8  BGA-8x8           BGA-64_8x8_P1.0mm_Ball_10X10_0.5mm_Pad0.4mm_NSMD   132.4305   -48.8899  270.0000  bottom
+PQG208-J1       Conn_01x26        PinHeader_1x26_P1.00mm_Vertical_SMD_Pin1Left       323.6595  -200.1266  180.0000  bottom
+PQG208-J2       Conn_01x26        PinHeader_1x26_P1.00mm_Vertical_SMD_Pin1Left       338.3280  -214.4776  270.0000  bottom
+PQG208-J3       Conn_01x26        PinHeader_1x26_P1.00mm_Vertical_SMD_Pin1Left       353.2645  -200.1811    0.0000  bottom
+PQG208-J4       Conn_01x26        PinHeader_1x26_P1.00mm_Vertical_SMD_Pin1Left       339.0265  -186.1566   90.0000  bottom
+SOIC-28W1       PIC18LF2431-ISO   SOIC-28W_7.5x17.9mm_P1.27mm                        225.5520  -228.3714  180.0000  bottom
+SSOP-28         PIC18LF26K80_ISS  SSOP-28_5.3x10.2mm_P0.65mm                         226.0854  -177.7238  180.0000  bottom
+Xx_BGA-8x8      BGA-8x8           BGA-64_8x8_P1.0mm_Ball_10X10_0.5mm_Pad0.4mm_NSMD   243.7738  -125.5239  270.0000  bottom
+## End

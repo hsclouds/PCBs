@@ -1,0 +1,323 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 14 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor:BME680 SEN_U4
+U 1 1 6257A4E6
+P 2700 2000
+F 0 "SEN_U4" H 2450 2450 50  0000 R CNN
+F 1 "BME680" H 2850 2000 50  0000 R CNN
+F 2 "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering" H 4150 1550 50  0001 C CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf" H 2700 1800 50  0001 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Motion:MPU-9150 Sen_U3
+U 1 1 6257F1DA
+P 2750 4900
+F 0 "Sen_U3" H 2350 5500 50  0000 C CNN
+F 1 "MPU-9150" V 2700 4900 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 2750 4100 50  0001 C CNN
+F 3 "https://www.invensense.com/wp-content/uploads/2015/02/MPU-9150-Datasheet.pdf" H 2750 4750 50  0001 C CNN
+	1    2750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R3 GN_Ard_R3_Hdr?
+U 1 1 625AB13A
+P 15050 6200
+AR Path="/625AB13A" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F8673/625AB13A" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F80EB/625AB13A" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/6199B5DD/625AB13A" Ref="GN_Ard_R3_Hdr?"  Part="1" 
+AR Path="/6257466F/625AB13A" Ref="SEN_Ard_R3_Hdr1"  Part="1" 
+F 0 "SEN_Ard_R3_Hdr1" H 14550 7150 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 14550 5150 50  0001 C CNN
+F 2 "Module:Arduino_UNO_R3" H 15050 6200 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 15050 6200 50  0001 C CNN
+	1    15050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D GN_RPi_4B_Hdr?
+U 1 1 625AB148
+P 14300 2200
+AR Path="/625AB148" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F8673/625AB148" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F80EB/625AB148" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/6199B5DD/625AB148" Ref="GN_RPi_4B_Hdr?"  Part="1" 
+AR Path="/6257466F/625AB148" Ref="SEN_RPi_4B_Hdr1"  Part="1" 
+F 0 "SEN_RPi_4B_Hdr1" H 14800 2350 50  0000 C CNN
+F 1 "RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D" H 15100 150 50  0001 C CNN
+F 2 "RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRYPI4B4GB" H 15450 2300 50  0001 L CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_4b_4p0.pdf" H 15450 2200 50  0001 L CNN
+F 4 "RASPBERRY PI 4 MODEL B with Samtec ESP-120-33-G-D connector drawn from underneath for use as a plug in module." H 15450 2100 50  0001 L CNN "Description"
+F 5 "24.3" H 15450 2000 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 15450 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "RASPBERRY PI 4B + Samtec ESP-120-33-G-D" H 15450 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 15450 1700 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 15450 1600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 15450 1500 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 15450 1400 50  0001 L CNN "Arrow Price/Stock"
+	1    14300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BEAGLEBONEBLACK:BEAGLEBONEBLACK GN_BB_Black_Hdr?
+U 1 1 625AB152
+P 12350 4350
+AR Path="/625AB152" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F8673/625AB152" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F80EB/625AB152" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/6199B5DD/625AB152" Ref="GN_BB_Black_Hdr?"  Part="1" 
+AR Path="/6257466F/625AB152" Ref="SEN_BB_Black_Hdr1"  Part="1" 
+F 0 "SEN_BB_Black_Hdr1" H 11700 7500 50  0000 C CNN
+F 1 "BEAGLEBONEBLACK" H 13000 7500 50  0001 C CNN
+F 2 "BEAGLEBONEBLACK:MODULE_BEAGLEBONEBLACK" H 12350 4350 50  0001 L BNN
+F 3 "" H 12350 4350 50  0001 L BNN
+F 4 "Bearings Limited" H 12350 4350 50  0001 L BNN "MANUFACTURER"
+F 5 "4.76 mm" H 12350 4350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "C" H 12350 4350 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 12350 4350 50  0001 L BNN "STANDARD"
+	1    12350 4350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15750 1000 15750 7850
+Wire Notes Line
+	15750 7850 10600 7850
+Wire Notes Line
+	10600 7850 10600 1000
+Wire Notes Line
+	10600 1000 15750 1000
+Text Notes 10700 7800 0    50   ~ 0
+Raspberry Pi, Arduino and BeagleBone Headers
+$Comp
+L ul_MCP3901A0T-I-SS:MCP3901A0T-I_SS AFE_ADC_2x24_64Ksps1
+U 1 1 625BBDEF
+P 2250 8000
+F 0 "AFE_ADC_2x24_64Ksps1" H 3050 8250 60  0000 C CNN
+F 1 "MCP3901A0T-I_SS" H 3750 6850 60  0000 C CNN
+F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 3950 8240 60  0001 C CNN
+F 3 "" H 2250 8000 60  0000 C CNN
+	1    2250 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CurrentLoop:XTR116U IV_U1
+U 1 1 625C17E7
+P 7700 2200
+F 0 "IV_U1" H 7500 2750 50  0000 C CNN
+F 1 "XTR116U" V 7700 2300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7700 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/xtr115.pdf" H 7700 2200 50  0001 C CNN
+	1    7700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Gas:MQ-6 FG_U1
+U 1 1 625C6564
+P 7800 5050
+F 0 "FG_U1" H 7550 5400 50  0000 C CNN
+F 1 "MQ-6" H 7800 5050 50  0000 C CNN
+F 2 "Sensor:MQ-6" H 7850 4600 50  0001 C CNN
+F 3 "https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf" H 7800 5300 50  0001 C CNN
+	1    7800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_GPS:MAX-M8C GNSS_U1
+U 1 1 625C7449
+P 5150 3150
+F 0 "GNSS_U1" H 4700 3800 50  0000 C CNN
+F 1 "MAX-M8C" H 5150 3150 50  0000 C CNN
+F 2 "RF_GPS:ublox_MAX" H 5550 2500 50  0001 C CNN
+F 3 "https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf" H 5150 3150 50  0001 C CNN
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
+Text Notes 8700 11050 0    50   ~ 0
+Raspberry Pi Pico (RP2040) Module\n
+$Comp
+L SC0915:SC0915 RP2040_Mod_SC?
+U 1 1 6262491C
+P 9350 9200
+AR Path="/61946827/6262491C" Ref="RP2040_Mod_SC?"  Part="1" 
+AR Path="/6257466F/6262491C" Ref="SEN_RPi_Pico_SC915"  Part="1" 
+F 0 "SEN_RPi_Pico_SC915" H 9350 10975 50  0000 C CNN
+F 1 "SC0915" H 9350 10976 50  0001 C CNN
+F 2 "SnapEDA Library:MODULE_SC0915" H 9350 9200 50  0001 L BNN
+F 3 "" H 9350 9200 50  0001 L BNN
+F 4 "Raspberry Pi" H 9350 9200 50  0001 L BNN "MANUFACTURER"
+F 5 "3.73mm" H 9350 9200 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "1.6" H 9350 9200 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 9350 9200 50  0001 L BNN "STANDARD"
+	1    9350 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 62651757
+P 2750 5750
+F 0 "#PWR0105" H 2750 5500 50  0001 C CNN
+F 1 "GND" H 2755 5577 50  0000 C CNN
+F 2 "" H 2750 5750 50  0001 C CNN
+F 3 "" H 2750 5750 50  0001 C CNN
+	1    2750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 62651D41
+P 7800 5700
+F 0 "#PWR0106" H 7800 5450 50  0001 C CNN
+F 1 "GND" H 7805 5527 50  0000 C CNN
+F 2 "" H 7800 5700 50  0001 C CNN
+F 3 "" H 7800 5700 50  0001 C CNN
+	1    7800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6265200B
+P 2700 2700
+F 0 "#PWR0107" H 2700 2450 50  0001 C CNN
+F 1 "GND" H 2705 2527 50  0000 C CNN
+F 2 "" H 2700 2700 50  0001 C CNN
+F 3 "" H 2700 2700 50  0001 C CNN
+	1    2700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 626523E2
+P 7700 2650
+F 0 "#PWR0108" H 7700 2400 50  0001 C CNN
+F 1 "GND" H 7705 2477 50  0000 C CNN
+F 2 "" H 7700 2650 50  0001 C CNN
+F 3 "" H 7700 2650 50  0001 C CNN
+	1    7700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 626526B8
+P 5150 4050
+F 0 "#PWR0109" H 5150 3800 50  0001 C CNN
+F 1 "GND" H 5155 3877 50  0000 C CNN
+F 2 "" H 5150 4050 50  0001 C CNN
+F 3 "" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 62653D68
+P 5650 9300
+F 0 "#PWR0110" H 5650 9050 50  0001 C CNN
+F 1 "GND" H 5655 9127 50  0000 C CNN
+F 2 "" H 5650 9300 50  0001 C CNN
+F 3 "" H 5650 9300 50  0001 C CNN
+	1    5650 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5600 2750 5600
+Wire Wire Line
+	2750 5600 2850 5600
+Connection ~ 2750 5600
+Wire Wire Line
+	2750 5600 2750 5750
+Wire Wire Line
+	7800 5450 7800 5700
+Wire Wire Line
+	5150 3850 5150 4050
+Wire Wire Line
+	2600 2600 2700 2600
+Wire Wire Line
+	2700 2700 2700 2600
+Connection ~ 2700 2600
+Wire Wire Line
+	2700 2600 2800 2600
+Wire Wire Line
+	5650 8900 5650 9300
+$Comp
+L power:Earth #PWR0111
+U 1 1 62667A12
+P 2050 9350
+F 0 "#PWR0111" H 2050 9100 50  0001 C CNN
+F 1 "Earth" H 2050 9200 50  0001 C CNN
+F 2 "" H 2050 9350 50  0001 C CNN
+F 3 "~" H 2050 9350 50  0001 C CNN
+	1    2050 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 8700 2050 8700
+Wire Wire Line
+	2050 8700 2050 9350
+Text Label 2050 4600 2    50   ~ 0
+SEN_SDA
+Text Label 2050 4700 2    50   ~ 0
+SEN_SCL
+Text Label 4550 3050 2    50   ~ 0
+SEN_SDA
+Text Label 4550 3150 2    50   ~ 0
+SEN_SCL
+Text Label 3300 2100 0    50   ~ 0
+SEN_SDA
+Text Label 3300 1900 0    50   ~ 0
+SEN_SCL
+Text Label 10350 8200 0    50   ~ 0
+SEN_SDA
+Text Label 10350 8100 0    50   ~ 0
+SEN_SCL
+$Comp
+L power:Earth #PWR0112
+U 1 1 6267E46D
+P 10550 10950
+F 0 "#PWR0112" H 10550 10700 50  0001 C CNN
+F 1 "Earth" H 10550 10800 50  0001 C CNN
+F 2 "" H 10550 10950 50  0001 C CNN
+F 3 "~" H 10550 10950 50  0001 C CNN
+	1    10550 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 6267E7EA
+P 10400 10950
+F 0 "#PWR0113" H 10400 10700 50  0001 C CNN
+F 1 "GND" H 10405 10777 50  0000 C CNN
+F 2 "" H 10400 10950 50  0001 C CNN
+F 3 "" H 10400 10950 50  0001 C CNN
+	1    10400 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 10700 10550 10700
+Wire Wire Line
+	10550 10700 10550 10950
+Wire Wire Line
+	10350 10500 10400 10500
+Wire Wire Line
+	10400 10500 10400 10800
+Wire Wire Line
+	10350 10800 10400 10800
+Connection ~ 10400 10800
+Wire Wire Line
+	10400 10800 10400 10950
+$EndSCHEMATC

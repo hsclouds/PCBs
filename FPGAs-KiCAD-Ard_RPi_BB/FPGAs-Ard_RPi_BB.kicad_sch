@@ -1,0 +1,257 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0a3d2d58-7251-46e5-a94c-f0b45095978d)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (text "Arduino Raspberry Pi and Beaglebone Headers\n" (at 318.77 261.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c95589ef-18a1-48d7-b30c-c98204cd55e0)
+  )
+
+  (sheet (at 144.78 57.15) (size 68.58 33.02) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000618f80eb)
+    (property "Sheetname" "Intel_FPGAs" (at 144.78 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Intel_FPGAs.kicad_sch" (at 144.78 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 140.97) (size 68.58 29.21) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000618f82be)
+    (property "Sheetname" "Xilinx_FPGAs" (at 41.91 140.2584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Xilinx_FPGAs.kicad_sch" (at 41.91 170.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 99.06) (size 68.58 29.21) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000618f848b)
+    (property "Sheetname" "Lattice_FPGAs" (at 41.91 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lattice_FPGAs.kicad_sch" (at 41.91 128.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 241.3 57.15) (size 67.31 27.94) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000618f8673)
+    (property "Sheetname" "Microsemi_FPGAs" (at 241.3 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microsemi_FPGAs.kicad_sch" (at 241.3 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "13"))
+      )
+    )
+  )
+
+  (sheet (at 240.03 101.6) (size 66.04 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061946827)
+    (property "Sheetname" "Efinix" (at 240.03 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Efinix.kicad_sch" (at 240.03 128.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "12"))
+      )
+    )
+  )
+
+  (sheet (at 243.84 149.86) (size 60.96 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006199b5dd)
+    (property "Sheetname" "Gowin" (at 243.84 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Gowin.kicad_sch" (at 243.84 175.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "14"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 57.15) (size 64.77 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000619d2110)
+    (property "Sheetname" "uUSB_To_3v3_1v8" (at 44.45 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "uUSB_To_3v3_1v8.kicad_sch" (at 44.45 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 243.84 185.42) (size 60.96 22.86) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061e6fcfc)
+    (property "Sheetname" "Gowin-2" (at 243.84 184.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Gowin-2.kicad_sch" (at 243.84 208.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "15"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 102.87) (size 68.58 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000062504b9f)
+    (property "Sheetname" "FPGA_Gen_App_Packages" (at 144.78 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_Gen_App_Packages.kicad_sch" (at 144.78 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 214.63) (size 72.39 20.32) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000625694a5)
+    (property "Sheetname" "Led_Board" (at 43.18 213.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Led_Board.kicad_sch" (at 43.18 235.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 147.32 213.36) (size 66.04 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000625694e6)
+    (property "Sheetname" "Environment_Board" (at 147.32 212.6484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Environment_Board.kicad_sch" (at 147.32 235.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 247.65) (size 73.66 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006257466f)
+    (property "Sheetname" "Sensors_Board" (at 43.18 246.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensors_Board.kicad_sch" (at 43.18 273.6346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 246.38) (size 67.31 22.86) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000625ce345)
+    (property "Sheetname" "SMD_Footprints" (at 146.05 245.6684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SMD_Footprints.kicad_sch" (at 146.05 269.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 140.97) (size 67.31 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000626a0d1e)
+    (property "Sheetname" "FPGA_Gen_App_Packages2" (at 146.05 140.2584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_Gen_App_Packages2.kicad_sch" (at 146.05 168.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGAs-Ard_RPi_BB"
+        (path "/0a3d2d58-7251-46e5-a94c-f0b45095978d" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

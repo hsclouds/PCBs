@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SLG47004V
+D Programmable Mixed-Signal Matrix Serial I2C 2Kbit 2.5V to 5V 24-Pin STQFN - Tape and Reel
+K
+F https://www.dialog-semiconductor.com/sites/default/files/2021-03/SLG47004_ds_2v4.pdf
+$ENDCMP
+#
+#End Doc Library
