@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PGA309_Ref_v2.2.PrjPCB]
+   Generated File[PGA309_Ref_v2.2.TXT]
+   Generated File[PGA309_Ref_v2.2.DRL]
+   Generated File[PGA309_Ref_v2.2.LDP]
+   Generated File[PGA309_Ref_v2.2.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:51:02 AM On 3/12/2014

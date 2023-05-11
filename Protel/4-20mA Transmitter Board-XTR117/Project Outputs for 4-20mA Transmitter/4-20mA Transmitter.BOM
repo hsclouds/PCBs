@@ -1,0 +1,19 @@
+Bill of Material for 4-20mA Transmitter.PRJPCB
+On 2014-04-27 at 11:57:50 AM
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 1W & I2C Connector  HDR1X4           1    J3                           Header, 4-Pin        
+ 24LC16BE            SOT23-5          1    U3                                                
+ BAS70-TP            SOT23-3          1    D2                                                
+ CON3                SIP3             1    J1                           Connector            
+ FCX690BTA           SOT89            1    Q1                           Transistor, NPN, 45V, 1A, SOT-89 
+ PGA309              TSSOP16          1    U2                                                
+ SMBJ40CA            SMB              1    D3                                                
+ SMBJ5V0CA           SMB              1    D1                                                
+ TSW-105-07-G-S      SIP5             1    J2                           Header, TH, 100mil, 5x1, Gold plated, 230 mil above insulator 
+ Used in BOM report  CR1005-0402     21    C1, C2, C3, C4, C5, C6, C7   CAP, CERM, xxxF, xxV, [TempCo], xx%, [PackageReference] 
+                                           C9, C10, C11, C12, R1, R2, R3
+                                           R4, R5, R6, R7, R8, R9, R10
+ Used in BOM report  CR1608-0603      3    C8, FB1, FB2                 CAP, CERM, xxxF, xxV, [TempCo], xx%, [PackageReference] 
+ XTR117              MSOP8            1    U1                                                

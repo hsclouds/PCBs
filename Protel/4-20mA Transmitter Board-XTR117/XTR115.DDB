@@ -1,0 +1,15 @@
+[Design Root]
+Version=1.0.0
+[Directory]
+XTR115.PCB=PCB
+Preview XTR115.PPC=PCBPrint
+CAM Outputs for XTR115.cam=CAMManager
+CAM for XTR115 24-Apr-2014 15.18.02=Folder
+[XTR115.PCB]
+Editor Kind=PCB
+[Preview XTR115.PPC]
+Editor Kind=PCBPrint
+[CAM Outputs for XTR115.cam]
+Editor Kind=CAMManager
+[CAM for XTR115 24-Apr-2014 15.18.02]
+Editor Kind=Folder

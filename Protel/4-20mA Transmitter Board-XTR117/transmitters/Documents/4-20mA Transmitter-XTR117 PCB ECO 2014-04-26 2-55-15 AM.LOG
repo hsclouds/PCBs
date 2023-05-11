@@ -1,0 +1,12 @@
+Added Component: Designator=FB1(CR1608-0603)
+Added Component: Designator=FB2(CR1608-0603)
+Added Component: Designator=R6(CR1005-0402)
+Added Pin To Net: NetName=NetC8_1 Pin=FB1-1
+Added Pin To Net: NetName=NetD2_3 Pin=FB1-2
+Added Pin To Net: NetName=NetC8_2 Pin=FB2-1
+Added Pin To Net: NetName=NetD3_2 Pin=FB2-2
+Added Pin To Net: NetName=NetJ2_4 Pin=R6-1
+Added Pin To Net: NetName=NetC6_2 Pin=R6-2
+Added Member To Class: ClassName=4-20mA Transmitter-XTR117 Member=Component FB1 Used in BOM report
+Added Member To Class: ClassName=4-20mA Transmitter-XTR117 Member=Component FB2 Used in BOM report
+Added Member To Class: ClassName=4-20mA Transmitter-XTR117 Member=Component R6 Used in BOM report

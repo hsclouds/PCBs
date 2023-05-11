@@ -1,0 +1,43 @@
+Protel Design System Design Rule Check
+PCB File : Documents\Sheet1.Pcb
+Date     : 20-Apr-2006
+Time     : 14:57:57
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Prefered=10mil) (On the board )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=9mil) (On the board ),(On the board )
+   Violation between Track (-80mil,-45mil)(-35mil,-45mil)  TopLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Track (-35mil,-45mil)(10mil,0mil)  TopLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Pad R9-2(-80mil,-45mil)  MultiLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Pad R9-1(-80mil,55mil)  MultiLayer and                      Pad R12-2(-92.598mil,59mil)  TopLayer   
+   Violation between Track (-345mil,150mil)(-280mil,85mil)  TopLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Track (-280mil,55mil)(-280mil,85mil)  TopLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Pad R8-1(-280mil,55mil)  MultiLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Pad R8-2(-280mil,-45mil)  MultiLayer and                      Pad R11-1(-318mil,-53mil)  TopLayer   
+   Violation between Arc (0mil,0mil)  KeepOutLayer and                      Pad U3-4(423.544mil,-329.882mil)  TopLayer   
+   Violation between Arc (0mil,0mil)  KeepOutLayer and                      Area Fill (315mil,-405mil) (465mil,-205mil)  TopLayer   
+   Violation between Pad T1-1(-500mil,0mil)  MultiLayer and                      Arc (0mil,0mil)  KeepOutLayer   
+   Violation between Pad T0-1(500mil,0mil)  MultiLayer and                      Arc (0mil,0mil)  KeepOutLayer   
+Rule Violations :12
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+   Violation between Track (-80mil,-45mil)(-35mil,-45mil)  TopLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Track (-35mil,-45mil)(10mil,0mil)  TopLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Pad R9-2(-80mil,-45mil)  MultiLayer and                      Pad R12-3(-42mil,-53mil)  TopLayer   
+   Violation between Pad R9-1(-80mil,55mil)  MultiLayer and                      Pad R12-2(-92.598mil,59mil)  TopLayer   
+   Violation between Track (-345mil,150mil)(-280mil,85mil)  TopLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Track (-280mil,55mil)(-280mil,85mil)  TopLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Pad R8-1(-280mil,55mil)  MultiLayer and                      Pad R11-2(-267.598mil,59mil)  TopLayer   
+   Violation between Pad R8-2(-280mil,-45mil)  MultiLayer and                      Pad R11-1(-318mil,-53mil)  TopLayer   
+Rule Violations :8
+
+
+Violations Detected : 20
+Time Elapsed        : 00:00:01

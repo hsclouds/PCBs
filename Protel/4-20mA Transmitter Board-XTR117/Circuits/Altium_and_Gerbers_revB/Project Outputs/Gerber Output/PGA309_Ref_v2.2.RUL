@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\a0270536\Desktop\Altium_and_Gerbers_revB\PGA309_Ref_v2.2.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance_BoardEdge_MountingHoles|Scope=Board|Minimum=30.00
+RuleKind=Clearance|RuleName=Clearance_BoardEdge_Poly|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Clearance_BoardEdge|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.00

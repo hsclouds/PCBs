@@ -1,0 +1,9 @@
+[XTR115_Pick Place Output|CAMPickNPlace]
+Units=Metric
+GenerateSpreadSheetFormat=0
+GenerateCSVFormat=1
+GenerateTextFormat=0
+Enabled=1
+[Master]
+Version=CAM output configuration file Version 1.0
+BoardName=XTR115.PCB
