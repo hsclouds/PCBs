@@ -1,0 +1,49 @@
+Drill report for FPGAs-Ard_RPi_BB.kicad_pcb
+Created on 3/18/2023 1:27:19 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  L2_GND.Cu                 in1
+    L3 :  L3_PWR.Cu                 in2
+    L4 :  L4_Sig.Cu                 in3
+    L5 :  L5_PWR.Cu                 in4
+    L6 :  B.Cu                      back
+
+
+Drill file 'FPGAs-Ard_RPi_BB-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.025mm  0.0010"  (6 holes)
+    T2  0.057mm  0.0022"  (117 holes)
+    T3  0.152mm  0.0060"  (417 holes)
+    T4  0.200mm  0.0079"  (6 holes)
+    T5  0.203mm  0.0080"  (176 holes)
+    T6  0.254mm  0.0100"  (109 holes)
+    T7  0.300mm  0.0118"  (128 holes)
+    T8  0.400mm  0.0157"  (16 holes)
+    T9  0.500mm  0.0197"  (320 holes)
+    T10  0.600mm  0.0236"  (10 holes)  (with 6 slots)
+    T11  0.650mm  0.0256"  (29 holes)
+    T12  0.700mm  0.0276"  (10 holes)
+    T13  0.800mm  0.0315"  (176 holes)
+    T14  0.850mm  0.0335"  (2 holes)
+    T15  1.000mm  0.0394"  (256 holes)
+    T16  1.240mm  0.0488"  (3 holes)
+    T17  1.300mm  0.0512"  (8 holes)
+    T18  1.320mm  0.0520"  (2 holes)
+
+    Total plated holes count 1791
+
+
+Drill file 'FPGAs-Ard_RPi_BB-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.787mm  0.0310"  (6 holes)
+    T2  0.991mm  0.0390"  (18 holes)
+    T3  1.000mm  0.0394"  (6 holes)
+    T4  2.311mm  0.0910"  (1 hole)
+    T5  2.375mm  0.0935"  (4 holes)
+    T6  2.500mm  0.0984"  (9 holes)
+
+    Total unplated holes count 44

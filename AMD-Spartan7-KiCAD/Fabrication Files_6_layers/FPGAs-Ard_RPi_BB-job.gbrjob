@@ -1,0 +1,216 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "(7.0.0)"
+    },
+    "CreationDate": "2023-03-18T13:26:35-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "FPGAs-Ard_RPi_BB",
+      "GUID": "46504741-732d-4417-9264-5f5250695f42",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 229.2,
+      "Y": 194.6
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 0.3398,
+    "Finish": "None",
+    "EdgeConnector": true,
+    "EdgeConnectorBevelled": false
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.058,
+      "MinLineWidth": 0.0568,
+      "TrackToRegion": 0.2032,
+      "RegionToRegion": 0.2032
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.058,
+      "MinLineWidth": 0.0568,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "FPGAs-Ard_RPi_BB-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-L2_GND_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-L3_PWR_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-L4_Sig_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-L5_PWR_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-B_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "FPGAs-Ard_RPi_BB-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0762,
+      "Material": "FR4",
+      "Name": "F.Cu/L2_GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to L2_GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "L2_GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0254,
+      "Material": "FR4",
+      "Name": "L2_GND.Cu/L3_PWR.Cu",
+      "Notes": "Type: dielectric layer 2 (from L2_GND.Cu to L3_PWR.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "L3_PWR.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0762,
+      "Material": "FR4",
+      "Name": "L3_PWR.Cu/L4_Sig.Cu",
+      "Notes": "Type: dielectric layer 3 (from L3_PWR.Cu to L4_Sig.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "L4_Sig.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0254,
+      "Material": "FR4",
+      "Name": "L4_Sig.Cu/L5_PWR.Cu",
+      "Notes": "Type: dielectric layer 4 (from L4_Sig.Cu to L5_PWR.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "L5_PWR.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0175,
+      "Material": "FR4",
+      "Name": "L5_PWR.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from L5_PWR.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0165,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

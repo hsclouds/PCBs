@@ -1,0 +1,6 @@
+Info: Front (top side) placement file: 'C:\Users\rabha\OneDrive\Documents\Projects\Ki CAD Projects\AMD-Xilinx-Z7-KiCAD-Ard_RPi_BB_v1\Fabrication Files\Assembly Files\FPGAs-Ard_RPi_BB-top.pos'.
+Info: Component count: 91.
+Info: Back (bottom side) placement file: 'C:\Users\rabha\OneDrive\Documents\Projects\Ki CAD Projects\AMD-Xilinx-Z7-KiCAD-Ard_RPi_BB_v1\Fabrication Files\Assembly Files\FPGAs-Ard_RPi_BB-bottom.pos'.
+Info: Component count: 0.
+Info: Full component count: 91.
+Info: File generation successful.

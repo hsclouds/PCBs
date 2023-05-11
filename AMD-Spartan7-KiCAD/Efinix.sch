@@ -1,0 +1,1833 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 6 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGAs-Ard_RPi_BB-rescue:T8F81C2-T8F81C2 BGA?
+U 1 1 61947D24
+P 20250 14250
+AR Path="/618F884D/61947D24" Ref="BGA?"  Part="1" 
+AR Path="/618F848B/61947D24" Ref="BGA?"  Part="1" 
+AR Path="/61946827/61947D24" Ref="BGA2"  Part="1" 
+F 0 "BGA2" H 19800 14800 50  0000 C CNN
+F 1 "T8F81C2-T8F81C2" H 19800 13800 50  0001 C CNN
+F 2 "BGA81N50P9X9_500X500X93N" H 20250 14250 50  0001 L BNN
+F 3 "" H 20250 14250 50  0001 L BNN
+F 4 "IPC-7351B" H 20250 14250 50  0001 L BNN "STANDARD"
+F 5 "1" H 20250 14250 50  0001 L BNN "PARTREV"
+F 6 "Efinix" H 20250 14250 50  0001 L BNN "MANUFACTURER"
+F 7 "0.93mm" H 20250 14250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    20250 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGAs-Ard_RPi_BB-rescue:T8F81C2-T8F81C2 BGA2
+U 3 1 6192AF0C
+P 20450 17850
+F 0 "BGA2" H 19550 18200 50  0000 C CNN
+F 1 "T8F81C2-T8F81C2" H 19800 17400 50  0001 C CNN
+F 2 "BGA81N50P9X9_500X500X93N" H 20450 17850 50  0001 L BNN
+F 3 "" H 20450 17850 50  0001 L BNN
+F 4 "IPC-7351B" H 20450 17850 50  0001 L BNN "STANDARD"
+F 5 "1" H 20450 17850 50  0001 L BNN "PARTREV"
+F 6 "Efinix" H 20450 17850 50  0001 L BNN "MANUFACTURER"
+F 7 "0.93mm" H 20450 17850 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	3    20450 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R3 Ef_Ard_R3_Hdr?
+U 1 1 61B254B3
+P 28900 9250
+AR Path="/61B254B3" Ref="Ef_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F8673/61B254B3" Ref="Ef_Ard_R3_Hdr?"  Part="1" 
+AR Path="/618F80EB/61B254B3" Ref="Ef_Ard_R3_Hdr?"  Part="1" 
+AR Path="/619D2110/61B254B3" Ref="Ef_Ard_R3_Hdr?"  Part="1" 
+AR Path="/61946827/61B254B3" Ref="Ef_Ard_R3_Hdr1"  Part="1" 
+F 0 "Ef_Ard_R3_Hdr1" H 28400 10200 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 28400 8200 50  0001 C CNN
+F 2 "Module:Arduino_UNO_R3" H 28900 9250 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 28900 9250 50  0001 C CNN
+	1    28900 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D Ef_RPi_4B_Hdr?
+U 1 1 61B254C1
+P 26800 8350
+AR Path="/61B254C1" Ref="Ef_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F8673/61B254C1" Ref="Ef_RPi_4B_Hdr?"  Part="1" 
+AR Path="/618F80EB/61B254C1" Ref="Ef_RPi_4B_Hdr?"  Part="1" 
+AR Path="/619D2110/61B254C1" Ref="Ef_RPi_4B_Hdr?"  Part="1" 
+AR Path="/61946827/61B254C1" Ref="Ef_RPi_4B_Hdr1"  Part="1" 
+F 0 "Ef_RPi_4B_Hdr1" H 27300 8500 50  0000 C CNN
+F 1 "RASPBERRY_PI_4B_+_Samtec_ESP-120-33-G-D" H 27600 6300 50  0001 C CNN
+F 2 "RASPBERRY_PI_4B_+_Samtec_ESP-1:RASPBERRYPI4B4GB" H 27950 8450 50  0001 L CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_4b_4p0.pdf" H 27950 8350 50  0001 L CNN
+F 4 "RASPBERRY PI 4 MODEL B with Samtec ESP-120-33-G-D connector drawn from underneath for use as a plug in module." H 27950 8250 50  0001 L CNN "Description"
+F 5 "24.3" H 27950 8150 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 27950 8050 50  0001 L CNN "Manufacturer_Name"
+F 7 "RASPBERRY PI 4B + Samtec ESP-120-33-G-D" H 27950 7950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 27950 7850 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 27950 7750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 27950 7650 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 27950 7550 50  0001 L CNN "Arrow Price/Stock"
+	1    26800 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BEAGLEBONEBLACK:BEAGLEBONEBLACK Ef_BB_Black_Hdr?
+U 1 1 61B254CB
+P 28050 4700
+AR Path="/61B254CB" Ref="Ef_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F8673/61B254CB" Ref="Ef_BB_Black_Hdr?"  Part="1" 
+AR Path="/618F80EB/61B254CB" Ref="Ef_BB_Black_Hdr?"  Part="1" 
+AR Path="/619D2110/61B254CB" Ref="Ef_BB_Black_Hdr?"  Part="1" 
+AR Path="/61946827/61B254CB" Ref="Ef_BB_Black_Hdr1"  Part="1" 
+F 0 "Ef_BB_Black_Hdr1" H 27400 7850 50  0000 C CNN
+F 1 "BEAGLEBONEBLACK" H 28700 7850 50  0001 C CNN
+F 2 "BEAGLEBONEBLACK:MODULE_BEAGLEBONEBLACK" H 28050 4700 50  0001 L BNN
+F 3 "" H 28050 4700 50  0001 L BNN
+F 4 "Bearings Limited" H 28050 4700 50  0001 L BNN "MANUFACTURER"
+F 5 "4.76 mm" H 28050 4700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "C" H 28050 4700 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 28050 4700 50  0001 L BNN "STANDARD"
+	1    28050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGAs-Ard_RPi_BB-rescue:T8F81C2-T8F81C2 BGA2
+U 4 1 61D1EF24
+P 20600 19300
+F 0 "BGA2" H 20600 19875 50  0000 C CNN
+F 1 "T8F81C2-T8F81C2" H 20600 19876 50  0001 C CNN
+F 2 "BGA81N50P9X9_500X500X93N" H 20600 19300 50  0001 L BNN
+F 3 "" H 20600 19300 50  0001 L BNN
+F 4 "IPC-7351B" H 20600 19300 50  0001 L BNN "STANDARD"
+F 5 "1" H 20600 19300 50  0001 L BNN "PARTREV"
+F 6 "Efinix" H 20600 19300 50  0001 L BNN "MANUFACTURER"
+F 7 "0.93mm" H 20600 19300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	4    20600 19300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGAs-Ard_RPi_BB-rescue:T8F81C2-T8F81C2 BGA2
+U 5 1 61D27129
+P 20500 21050
+F 0 "BGA2" H 20500 21525 50  0000 C CNN
+F 1 "T8F81C2-T8F81C2" H 20500 21526 50  0001 C CNN
+F 2 "BGA81N50P9X9_500X500X93N" H 20500 21050 50  0001 L BNN
+F 3 "" H 20500 21050 50  0001 L BNN
+F 4 "IPC-7351B" H 20500 21050 50  0001 L BNN "STANDARD"
+F 5 "1" H 20500 21050 50  0001 L BNN "PARTREV"
+F 6 "Efinix" H 20500 21050 50  0001 L BNN "MANUFACTURER"
+F 7 "0.93mm" H 20500 21050 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	5    20500 21050
+	1    0    0    -1  
+$EndComp
+Connection ~ 27550 13700
+Wire Wire Line
+	26850 13700 27550 13700
+Wire Wire Line
+	26850 15600 26850 13700
+Wire Wire Line
+	27850 15600 26850 15600
+Connection ~ 29450 14650
+Wire Wire Line
+	29450 16300 28450 16300
+Wire Wire Line
+	29450 14650 29450 16300
+Connection ~ 29550 14700
+Wire Wire Line
+	29550 16200 28450 16200
+Wire Wire Line
+	29550 14700 29550 16200
+Connection ~ 28600 14300
+Wire Wire Line
+	28600 16100 28450 16100
+Wire Wire Line
+	28600 14300 28600 16100
+Connection ~ 28500 14200
+Wire Wire Line
+	28500 16000 28450 16000
+Wire Wire Line
+	28500 14200 28500 16000
+Connection ~ 29400 14600
+Wire Wire Line
+	29400 15900 28450 15900
+Wire Wire Line
+	29400 14600 29400 15900
+Wire Wire Line
+	27950 16800 27950 17000
+$Comp
+L power:GND #PWR?
+U 1 1 61D6E4E1
+P 27950 17000
+AR Path="/617AAF92/61D6E4E1" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61D6E4E1" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61D6E4E1" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61D6E4E1" Ref="#PWR?"  Part="1" 
+AR Path="/61946827/61D6E4E1" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 27950 16750 50  0001 C CNN
+F 1 "GND" H 27955 16827 50  0000 C CNN
+F 2 "" H 27950 17000 50  0001 C CNN
+F 3 "" H 27950 17000 50  0001 C CNN
+	1    27950 17000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	29900 13400 29950 17200
+$Comp
+L Connector:Microsemi_FlashPro-JTAG-10 Ef_U2_JTAG?
+U 1 1 61D6E4E8
+P 27950 16200
+AR Path="/6199B5DD/61D6E4E8" Ref="Ef_U2_JTAG?"  Part="1" 
+AR Path="/61946827/61D6E4E8" Ref="Ef_U2_JTAG2"  Part="1" 
+F 0 "Ef_U2_JTAG2" V 27550 16250 50  0000 R CNN
+F 1 "Microsemi_FlashPro-JTAG-10" H 27570 16155 50  0001 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" V 27800 16350 50  0001 C CNN
+F 3 "https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an" H 26675 15650 50  0001 C CNN
+	1    27950 16200
+	1    0    0    -1  
+$EndComp
+Text Notes 28400 17200 0    50   ~ 0
+SW10 & Microsemi ISP JTAG connectors
+Wire Notes Line
+	26500 17200 26500 13400
+Wire Notes Line
+	29950 17200 26500 17200
+Wire Notes Line
+	26500 13400 29900 13400
+Wire Wire Line
+	29400 14600 29400 14450
+Wire Wire Line
+	28350 14600 29400 14600
+Wire Wire Line
+	28350 14000 28350 14600
+Wire Wire Line
+	28050 14000 28350 14000
+Wire Wire Line
+	29450 14650 28450 14650
+Wire Wire Line
+	29450 14350 29450 14650
+Wire Wire Line
+	29400 14350 29450 14350
+Wire Wire Line
+	28500 13850 28500 14200
+Wire Wire Line
+	29650 13850 28500 13850
+Wire Wire Line
+	29650 14150 29650 13850
+Wire Wire Line
+	29400 14150 29650 14150
+Wire Wire Line
+	28600 13750 28600 14300
+Wire Wire Line
+	29550 13750 28600 13750
+Wire Wire Line
+	29550 14050 29550 13750
+Wire Wire Line
+	29400 14050 29550 14050
+Wire Wire Line
+	28400 14700 29550 14700
+Wire Wire Line
+	29550 14250 29550 14700
+Wire Wire Line
+	29400 14250 29550 14250
+Wire Wire Line
+	27050 14300 27150 14300
+Wire Wire Line
+	27050 14950 27050 14300
+Wire Wire Line
+	28800 14950 27050 14950
+Wire Wire Line
+	28800 14350 28800 14950
+Wire Wire Line
+	28900 14350 28800 14350
+Wire Wire Line
+	28900 15000 28900 14450
+Wire Wire Line
+	27450 15000 28900 15000
+Wire Wire Line
+	27450 14900 27450 15000
+Wire Wire Line
+	28700 14250 28700 15050
+Connection ~ 28700 14250
+Wire Wire Line
+	28900 14250 28700 14250
+Wire Wire Line
+	28700 14150 28700 14250
+Wire Wire Line
+	28700 14150 28900 14150
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even Ef_U2_JTAG?
+U 1 1 61D6E511
+P 29100 14250
+AR Path="/6199B5DD/61D6E511" Ref="Ef_U2_JTAG?"  Part="1" 
+AR Path="/61946827/61D6E511" Ref="Ef_U2_JTAG3"  Part="1" 
+F 0 "Ef_U2_JTAG3" H 29150 14575 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 29150 14576 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 29100 14250 50  0001 C CNN
+F 3 "~" H 29100 14250 50  0001 C CNN
+	1    29100 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	28450 14500 28450 14650
+Wire Wire Line
+	28050 14500 28450 14500
+Wire Wire Line
+	28400 14400 28400 14700
+Wire Wire Line
+	28050 14400 28400 14400
+Wire Wire Line
+	28050 14200 28500 14200
+Wire Wire Line
+	27550 15050 27550 15150
+Connection ~ 27550 15050
+$Comp
+L power:GND #PWR?
+U 1 1 61D6E51E
+P 27550 15150
+AR Path="/617AAF92/61D6E51E" Ref="#PWR?"  Part="1" 
+AR Path="/617D0297/61D6E51E" Ref="#PWR?"  Part="1" 
+AR Path="/619D2110/61D6E51E" Ref="#PWR?"  Part="1" 
+AR Path="/6199B5DD/61D6E51E" Ref="#PWR?"  Part="1" 
+AR Path="/61946827/61D6E51E" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 27550 14900 50  0001 C CNN
+F 1 "GND" H 27555 14977 50  0000 C CNN
+F 2 "" H 27550 15150 50  0001 C CNN
+F 3 "" H 27550 15150 50  0001 C CNN
+	1    27550 15150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	27550 15050 27550 14900
+Wire Wire Line
+	28700 15050 27550 15050
+Wire Wire Line
+	28050 14300 28600 14300
+Wire Wire Line
+	28900 13700 28900 14050
+Wire Wire Line
+	27550 13700 28900 13700
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 Ef_U2_JTAG?
+U 1 1 61D6E529
+P 27550 14300
+AR Path="/6199B5DD/61D6E529" Ref="Ef_U2_JTAG?"  Part="1" 
+AR Path="/61946827/61D6E529" Ref="Ef_U2_JTAG1"  Part="1" 
+F 0 "Ef_U2_JTAG1" V 27100 14850 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 28550 13750 50  0000 R CNN
+F 2 "JTAG_Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical" H 27550 14300 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 27200 13050 50  0001 C CNN
+	1    27550 14300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGAs-Ard_RPi_BB-rescue:T8F81C2-T8F81C2 BGA2
+U 2 1 61D1645C
+P 20350 15950
+F 0 "BGA2" H 19450 16500 50  0000 C CNN
+F 1 "T8F81C2-T8F81C2" H 20350 16526 50  0001 C CNN
+F 2 "BGA81N50P9X9_500X500X93N" H 20350 15950 50  0001 L BNN
+F 3 "" H 20350 15950 50  0001 L BNN
+F 4 "IPC-7351B" H 20350 15950 50  0001 L BNN "STANDARD"
+F 5 "1" H 20350 15950 50  0001 L BNN "PARTREV"
+F 6 "Efinix" H 20350 15950 50  0001 L BNN "MANUFACTURER"
+F 7 "0.93mm" H 20350 15950 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	2    20350 15950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_J1
+U 1 1 61DD8552
+P 24300 20800
+F 0 "BGA81_J1" H 24250 21300 50  0000 L CNN
+F 1 "Conn_01x09" H 24380 20751 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 24300 20800 50  0001 C CNN
+F 3 "~" H 24300 20800 50  0001 C CNN
+	1    24300 20800
+	1    0    0    -1  
+$EndComp
+Text Label 24850 13600 2    50   ~ 0
+BGA81_pB1
+Text Label 23550 13700 2    50   ~ 0
+BGA81_pA2
+Text Label 23550 13800 2    50   ~ 0
+BGA81_pA3
+Text Label 23550 13900 2    50   ~ 0
+BGA81_pA4
+Text Label 23550 14000 2    50   ~ 0
+BGA81_pA5
+Text Label 23550 14100 2    50   ~ 0
+BGA81_pA6
+Text Label 23550 14200 2    50   ~ 0
+BGA81_pA7
+Text Label 23550 14300 2    50   ~ 0
+BGA81_pA8
+Text Label 23550 14400 2    50   ~ 0
+BGA81_pA9
+Text Label 24850 13700 2    50   ~ 0
+BGA81_pB2
+Text Label 24850 13800 2    50   ~ 0
+BGA81_pB3
+Text Label 24850 13900 2    50   ~ 0
+BGA81_pB4
+Text Label 24850 14000 2    50   ~ 0
+BGA81_pB5
+Text Label 24850 14100 2    50   ~ 0
+BGA81_pB6
+Text Label 24850 14200 2    50   ~ 0
+BGA81_pB7
+Text Label 24850 14300 2    50   ~ 0
+BGA81_pB8
+Text Label 23600 15300 2    50   ~ 0
+BGA81_pC1
+Text Label 23600 15400 2    50   ~ 0
+BGA81_pC2
+Text Label 23600 15500 2    50   ~ 0
+BGA81_pC3
+Text Label 23600 15600 2    50   ~ 0
+BGA81_pC4
+Text Label 23600 15700 2    50   ~ 0
+BGA81_pC5
+Text Label 23600 15800 2    50   ~ 0
+BGA81_pC6
+Text Label 23600 15900 2    50   ~ 0
+BGA81_pC7
+Text Label 23600 16000 2    50   ~ 0
+BGA81_pC8
+Text Label 23600 16100 2    50   ~ 0
+BGA81_pC9
+Text Label 23600 17150 2    50   ~ 0
+BGA81_pE1
+Text Label 23600 17250 2    50   ~ 0
+BGA81_pE2
+Text Label 23600 17350 2    50   ~ 0
+BGA81_pE3
+Text Label 23600 17450 2    50   ~ 0
+BGA81_pE4
+Text Label 23600 17550 2    50   ~ 0
+BGA81_pE5
+Text Label 23600 17650 2    50   ~ 0
+BGA81_pE6
+Text Label 23600 17750 2    50   ~ 0
+BGA81_pE7
+Text Label 23600 17850 2    50   ~ 0
+BGA81_pE8
+Text Label 23600 17950 2    50   ~ 0
+BGA81_pE9
+Text Label 23650 18750 2    50   ~ 0
+BGA81_pG1
+Text Label 23650 18850 2    50   ~ 0
+BGA81_pG2
+Text Label 23650 18950 2    50   ~ 0
+BGA81_pG3
+Text Label 23650 19050 2    50   ~ 0
+BGA81_pG4
+Text Label 23650 19150 2    50   ~ 0
+BGA81_pG5
+Text Label 23650 19250 2    50   ~ 0
+BGA81_pG6
+Text Label 23650 19350 2    50   ~ 0
+BGA81_pG7
+Text Label 23650 19450 2    50   ~ 0
+BGA81_pG8
+Text Label 23650 19550 2    50   ~ 0
+BGA81_pG9
+Text Label 24850 15300 2    50   ~ 0
+BGA81_pD1
+Text Label 24850 15400 2    50   ~ 0
+BGA81_pD2
+Text Label 24850 15500 2    50   ~ 0
+BGA81_pD3
+Text Label 24850 15600 2    50   ~ 0
+BGA81_pD4
+Text Label 24850 15700 2    50   ~ 0
+BGA81_pD5
+Text Label 24850 15800 2    50   ~ 0
+BGA81_pD6
+Text Label 24850 15900 2    50   ~ 0
+BGA81_pD7
+Text Label 24850 16000 2    50   ~ 0
+BGA81_pD8
+Text Label 24850 16100 2    50   ~ 0
+BGA81_pD9
+Text Label 24800 17150 2    50   ~ 0
+BGA81_pF1
+Text Label 24800 17250 2    50   ~ 0
+BGA81_pF2
+Text Label 24800 17350 2    50   ~ 0
+BGA81_pF3
+Text Label 24800 17450 2    50   ~ 0
+BGA81_pF4
+Text Label 24800 17550 2    50   ~ 0
+BGA81_pF5
+Text Label 24800 17650 2    50   ~ 0
+BGA81_pF6
+Text Label 24800 17750 2    50   ~ 0
+BGA81_pF7
+Text Label 24800 17850 2    50   ~ 0
+BGA81_pF8
+Text Label 24800 17950 2    50   ~ 0
+BGA81_pF9
+Text Label 24850 18750 2    50   ~ 0
+BGA81_pH1
+Text Label 24850 18850 2    50   ~ 0
+BGA81_pH2
+Text Label 24850 18950 2    50   ~ 0
+BGA81_pH3
+Text Label 24850 19050 2    50   ~ 0
+BGA81_pH4
+Text Label 24850 19150 2    50   ~ 0
+BGA81_pH5
+Text Label 24850 19250 2    50   ~ 0
+BGA81_pH6
+Text Label 24850 19350 2    50   ~ 0
+BGA81_pH7
+Text Label 24850 19450 2    50   ~ 0
+BGA81_pH8
+Text Label 24850 19550 2    50   ~ 0
+BGA81_pH9
+Text Label 24100 20400 2    50   ~ 0
+BGA81_pJ1
+Text Label 24100 20500 2    50   ~ 0
+BGA81_pJ2
+Text Label 24100 20600 2    50   ~ 0
+BGA81_pJ3
+Text Label 24100 20700 2    50   ~ 0
+BGA81_pJ4
+Text Label 24100 20800 2    50   ~ 0
+BGA81_pJ5
+Text Label 24100 20900 2    50   ~ 0
+BGA81_pJ6
+Text Label 24100 21000 2    50   ~ 0
+BGA81_pJ7
+Text Label 24100 21100 2    50   ~ 0
+BGA81_pJ8
+Text Label 24100 21200 2    50   ~ 0
+BGA81_pJ9
+Text Label 21050 14050 0    50   ~ 0
+BGA81_pJ1
+Text Label 21650 15850 0    50   ~ 0
+BGA81_pJ2
+Text Label 19050 16350 2    50   ~ 0
+BGA81_pJ3
+Text Label 19050 15950 2    50   ~ 0
+BGA81_pJ4
+Text Label 19050 15550 2    50   ~ 0
+BGA81_pJ5
+Text Label 22000 21450 0    50   ~ 0
+BGA81_pJ6
+Text Label 22000 21150 0    50   ~ 0
+BGA81_pJ7
+Text Label 22000 20850 0    50   ~ 0
+BGA81_pJ8
+Text Label 22000 20750 0    50   ~ 0
+BGA81_pJ9
+Text Label 21050 14250 0    50   ~ 0
+BGA81_pA7
+Text Label 21050 14150 0    50   ~ 0
+BGA81_pB2
+Text Label 21050 14350 0    50   ~ 0
+BGA81_pH7
+Text Label 21650 16450 0    50   ~ 0
+BGA81_pE1
+Text Label 21650 16350 0    50   ~ 0
+BGA81_pE2
+Text Label 21650 16250 0    50   ~ 0
+BGA81_pF1
+Text Label 21650 16050 0    50   ~ 0
+BGA81_pF3
+Text Label 19050 16250 2    50   ~ 0
+BGA81_pF4
+Text Label 21650 16150 0    50   ~ 0
+BGA81_pG1
+Text Label 21650 15750 0    50   ~ 0
+BGA81_pG3
+Text Label 19050 16150 2    50   ~ 0
+BGA81_pG4
+Text Label 19050 15850 2    50   ~ 0
+BGA81_pG5
+Text Label 22000 21250 0    50   ~ 0
+BGA81_pG6
+Text Label 22000 20950 0    50   ~ 0
+BGA81_pG8
+Text Label 19000 21350 2    50   ~ 0
+BGA81_pG9
+Text Label 21650 15950 0    50   ~ 0
+BGA81_pH2
+Text Label 19050 16450 2    50   ~ 0
+BGA81_pH3
+Text Label 19050 16050 2    50   ~ 0
+BGA81_pH4
+Text Label 19050 15750 2    50   ~ 0
+BGA81_pH5
+Text Label 22000 21350 0    50   ~ 0
+BGA81_pH6
+Text Label 22000 21050 0    50   ~ 0
+BGA81_pH8
+Text Label 19000 21450 2    50   ~ 0
+BGA81_pH9
+Text Label 19250 17850 2    50   ~ 0
+BGA81_pA3
+Text Label 19250 17950 2    50   ~ 0
+BGA81_pA4
+Text Label 19000 18900 2    50   ~ 0
+BGA81_pA5
+Text Label 19000 19200 2    50   ~ 0
+BGA81_pA6
+Text Label 19000 19600 2    50   ~ 0
+BGA81_pA8
+Text Label 19000 19700 2    50   ~ 0
+BGA81_pA9
+Text Label 21650 17650 0    50   ~ 0
+BGA81_pC2
+Text Label 21650 18050 0    50   ~ 0
+BGA81_pC3
+Text Label 19250 17750 2    50   ~ 0
+BGA81_pC4
+Text Label 19000 19100 2    50   ~ 0
+BGA81_pC5
+Text Label 19000 19400 2    50   ~ 0
+BGA81_pC6
+Text Label 19000 19500 2    50   ~ 0
+BGA81_pC7
+Text Label 22200 19000 0    50   ~ 0
+BGA81_pC8
+Text Label 22200 19300 0    50   ~ 0
+BGA81_pC9
+Text Label 21650 18150 0    50   ~ 0
+BGA81_pB3
+Text Label 19250 18050 2    50   ~ 0
+BGA81_pB4
+Text Label 19000 19000 2    50   ~ 0
+BGA81_pB5
+Text Label 19000 19300 2    50   ~ 0
+BGA81_pB6
+Text Label 22200 18900 0    50   ~ 0
+BGA81_pB8
+Text Label 22200 19200 0    50   ~ 0
+BGA81_pB9
+Text Label 21650 17750 0    50   ~ 0
+BGA81_pD2
+Text Label 21650 17950 0    50   ~ 0
+BGA81_pD3
+Text Label 22200 19100 0    50   ~ 0
+BGA81_pD6
+Text Label 22200 19400 0    50   ~ 0
+BGA81_pD7
+Text Label 22200 19500 0    50   ~ 0
+BGA81_pD8
+Text Label 22200 19600 0    50   ~ 0
+BGA81_pD9
+Text Label 21650 17850 0    50   ~ 0
+BGA81_pE3
+Text Label 22200 19700 0    50   ~ 0
+BGA81_pE8
+Text Label 19000 21050 2    50   ~ 0
+BGA81_pE6
+Text Label 19000 20850 2    50   ~ 0
+BGA81_pE7
+Text Label 19000 21250 2    50   ~ 0
+BGA81_pF5
+Text Label 19000 21150 2    50   ~ 0
+BGA81_pF6
+Text Label 19000 20950 2    50   ~ 0
+BGA81_pF7
+Text Label 19000 20750 2    50   ~ 0
+BGA81_pF8
+Text Label 21050 13950 0    50   ~ 0
+BGA81_pA1
+Text Label 23550 13600 2    50   ~ 0
+BGA81_pA1
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_A1
+U 1 1 63E60594
+P 23750 14000
+F 0 "BGA81_A1" H 23700 14500 50  0000 L CNN
+F 1 "Conn_01x09" H 23830 13951 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 23750 14000 50  0001 C CNN
+F 3 "~" H 23750 14000 50  0001 C CNN
+	1    23750 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_B1
+U 1 1 63E780DC
+P 25050 14000
+F 0 "BGA81_B1" H 25000 14500 50  0000 L CNN
+F 1 "Conn_01x09" H 25130 13951 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 25050 14000 50  0001 C CNN
+F 3 "~" H 25050 14000 50  0001 C CNN
+	1    25050 14000
+	1    0    0    -1  
+$EndComp
+Text Label 24850 14400 2    50   ~ 0
+BGA81_pB9
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_C1
+U 1 1 63E8CF1B
+P 23800 15700
+F 0 "BGA81_C1" H 23750 16200 50  0000 L CNN
+F 1 "Conn_01x09" H 23880 15651 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 23800 15700 50  0001 C CNN
+F 3 "~" H 23800 15700 50  0001 C CNN
+	1    23800 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_D1
+U 1 1 63E8D6F2
+P 25050 15700
+F 0 "BGA81_D1" H 25000 16200 50  0000 L CNN
+F 1 "Conn_01x09" H 25130 15651 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 25050 15700 50  0001 C CNN
+F 3 "~" H 25050 15700 50  0001 C CNN
+	1    25050 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_E1
+U 1 1 63E9F9E7
+P 23800 17550
+F 0 "BGA81_E1" H 23750 18050 50  0000 L CNN
+F 1 "Conn_01x09" H 23880 17501 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 23800 17550 50  0001 C CNN
+F 3 "~" H 23800 17550 50  0001 C CNN
+	1    23800 17550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_F1
+U 1 1 63EA9CCF
+P 25000 17550
+F 0 "BGA81_F1" H 24950 18050 50  0000 L CNN
+F 1 "Conn_01x09" H 25080 17501 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 25000 17550 50  0001 C CNN
+F 3 "~" H 25000 17550 50  0001 C CNN
+	1    25000 17550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_G1
+U 1 1 63EC25BD
+P 23850 19150
+F 0 "BGA81_G1" H 23800 19650 50  0000 L CNN
+F 1 "Conn_01x09" H 23930 19101 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 23850 19150 50  0001 C CNN
+F 3 "~" H 23850 19150 50  0001 C CNN
+	1    23850 19150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 BGA81_H1
+U 1 1 63EC3495
+P 25050 19150
+F 0 "BGA81_H1" H 25000 19650 50  0000 L CNN
+F 1 "Conn_01x09" H 25130 19101 50  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 25050 19150 50  0001 C CNN
+F 3 "~" H 25050 19150 50  0001 C CNN
+	1    25050 19150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	29950 1100 29950 10800
+Wire Notes Line
+	29950 10800 25900 10800
+Wire Notes Line
+	25900 10800 25900 1100
+Wire Notes Line
+	25900 1100 29950 1100
+Wire Notes Line
+	25700 12400 25700 22700
+Wire Notes Line
+	25700 22700 17900 22700
+Wire Notes Line
+	17900 22700 17900 12400
+Wire Notes Line
+	17900 12400 25700 12400
+Wire Notes Line
+	11250 550  11250 7700
+Wire Notes Line
+	11250 7700 500  7700
+Wire Notes Line
+	500  7700 500  550 
+Wire Notes Line
+	500  550  11250 550 
+$Comp
+L Connector_Generic:Conn_02x05_Row_Letter_First GND_RAIL1
+U 1 1 66CD6C2D
+P 29200 11500
+AR Path="/61946827/66CD6C2D" Ref="GND_RAIL1"  Part="1" 
+AR Path="/618F80EB/66CD6C2D" Ref="GND_RAIL?"  Part="1" 
+F 0 "GND_RAIL1" H 29250 11825 50  0000 C CNN
+F 1 "Conn_02x05_Row_Letter_First" H 29250 11826 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical" H 29200 11500 50  0001 C CNN
+F 3 "~" H 29200 11500 50  0001 C CNN
+	1    29200 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Row_Letter_First PWR_RAIL_2
+U 1 1 66CD6C4D
+P 29200 12250
+AR Path="/61946827/66CD6C4D" Ref="PWR_RAIL_2"  Part="1" 
+AR Path="/618F80EB/66CD6C4D" Ref="PWR_RAIL?"  Part="1" 
+F 0 "PWR_RAIL_2" H 29250 12575 50  0000 C CNN
+F 1 "Conn_02x05_Row_Letter_First" H 29250 12576 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical" H 29200 12250 50  0001 C CNN
+F 3 "~" H 29200 12250 50  0001 C CNN
+	1    29200 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29000 12050 29000 12150
+Connection ~ 29000 12150
+Wire Wire Line
+	29000 12150 29000 12250
+Connection ~ 29000 12250
+Wire Wire Line
+	29000 12250 29000 12350
+Connection ~ 29000 12350
+Wire Wire Line
+	29000 12350 29000 12450
+Wire Wire Line
+	29500 12050 29500 12150
+Connection ~ 29500 12150
+Wire Wire Line
+	29500 12150 29500 12250
+Connection ~ 29500 12250
+Wire Wire Line
+	29500 12250 29500 12350
+Connection ~ 29500 12350
+Wire Wire Line
+	29500 12350 29500 12450
+Wire Wire Line
+	29000 11300 29000 11400
+Connection ~ 29000 11400
+Wire Wire Line
+	29000 11400 29000 11500
+Connection ~ 29000 11500
+Wire Wire Line
+	29000 11500 29000 11600
+Connection ~ 29000 11600
+Wire Wire Line
+	29000 11600 29000 11700
+Wire Wire Line
+	29500 11300 29500 11400
+Connection ~ 29500 11400
+Wire Wire Line
+	29500 11400 29500 11500
+Connection ~ 29500 11500
+Wire Wire Line
+	29500 11500 29500 11600
+Connection ~ 29500 11600
+Wire Wire Line
+	29500 11600 29500 11700
+Wire Wire Line
+	29500 11700 29500 11800
+Wire Wire Line
+	29500 11800 29000 11800
+Wire Wire Line
+	29000 11800 29000 11700
+Connection ~ 29500 11700
+Connection ~ 29000 11700
+Wire Wire Line
+	29500 11300 29500 11100
+Wire Wire Line
+	29500 11100 29000 11100
+Wire Wire Line
+	29000 11100 29000 11300
+Connection ~ 29500 11300
+Connection ~ 29000 11300
+Wire Wire Line
+	29000 12050 29000 11850
+Wire Wire Line
+	29000 11850 29500 11850
+Wire Wire Line
+	29500 11850 29500 12050
+Connection ~ 29000 12050
+Connection ~ 29500 12050
+$Comp
+L Connector_Generic:Conn_01x05 GND_RAIL_12
+U 1 1 66CD6FAE
+P 26850 11800
+AR Path="/61946827/66CD6FAE" Ref="GND_RAIL_12"  Part="1" 
+AR Path="/618F80EB/66CD6FAE" Ref="GND_RAIL_?"  Part="1" 
+F 0 "GND_RAIL_12" H 26768 11467 50  0000 C CNN
+F 1 "Conn_01x05" H 26768 11266 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 26850 11800 50  0001 C CNN
+F 3 "~" H 26850 11800 50  0001 C CNN
+	1    26850 11800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	27050 11600 27050 11700
+Connection ~ 27050 11700
+Wire Wire Line
+	27050 11700 27050 11800
+Connection ~ 27050 11800
+Wire Wire Line
+	27050 11800 27050 11900
+Connection ~ 27050 11900
+Wire Wire Line
+	27050 11900 27050 12000
+$Comp
+L Connector_Generic:Conn_01x05 PWR_RAIL_13
+U 1 1 66CD6FBB
+P 27400 11800
+AR Path="/61946827/66CD6FBB" Ref="PWR_RAIL_13"  Part="1" 
+AR Path="/618F80EB/66CD6FBB" Ref="PWR_RAIL_?"  Part="1" 
+F 0 "PWR_RAIL_13" H 27318 11467 50  0000 C CNN
+F 1 "Conn_01x05" H 27318 11266 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 27400 11800 50  0001 C CNN
+F 3 "~" H 27400 11800 50  0001 C CNN
+	1    27400 11800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	27600 11600 27600 11700
+Connection ~ 27600 11700
+Wire Wire Line
+	27600 11700 27600 11800
+Connection ~ 27600 11800
+Wire Wire Line
+	27600 11800 27600 11900
+Connection ~ 27600 11900
+Wire Wire Line
+	27600 11900 27600 12000
+$Comp
+L Connector_Generic:Conn_01x04 GND_RAIL_13
+U 1 1 66CD6FC8
+P 27950 11800
+AR Path="/61946827/66CD6FC8" Ref="GND_RAIL_13"  Part="1" 
+AR Path="/618F80EB/66CD6FC8" Ref="GND_RAIL_?"  Part="1" 
+F 0 "GND_RAIL_13" H 27868 11467 50  0000 C CNN
+F 1 "Conn_01x04" H 27868 11266 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 27950 11800 50  0001 C CNN
+F 3 "~" H 27950 11800 50  0001 C CNN
+	1    27950 11800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	28150 11600 28150 11700
+Connection ~ 28150 11700
+Wire Wire Line
+	28150 11700 28150 11800
+Connection ~ 28150 11800
+Wire Wire Line
+	28150 11800 28150 11900
+$Comp
+L RP2040:RP2040 RPi_QFN40p1
+U 1 1 61AA2C64
+P 2350 4250
+F 0 "RPi_QFN40p1" H 2350 4250 50  0000 C CNN
+F 1 "RP2040" H 2350 6226 50  0001 C CNN
+F 2 "SnapEDA Library:QFN40P700X700X90-57N" H 2350 4250 50  0001 L BNN
+F 3 "" H 2350 4250 50  0001 L BNN
+F 4 "1.6.1" H 2350 4250 50  0001 L BNN "PARTREV"
+F 5 "0.9 mm" H 2350 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Raspberry Pi" H 2350 4250 50  0001 L BNN "MANUFACTURER"
+F 7 "IPC 7351B" H 2350 4250 50  0001 L BNN "STANDARD"
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 5750 0    50   ~ 0
+Raspberry Pi Pico (RP2040) Module\n
+Text Notes 650  7600 0    50   ~ 0
+Raspberry Pi Pico (RP2040) Module - Enhancements\n\n
+$Comp
+L SC0915:SC0915 RP2040_Mod_SC915
+U 1 1 61AA359C
+P 7850 3900
+F 0 "RP2040_Mod_SC915" H 7850 5675 50  0000 C CNN
+F 1 "SC0915" H 7850 5676 50  0001 C CNN
+F 2 "SnapEDA Library:MODULE_SC0915" H 7850 3900 50  0001 L BNN
+F 3 "" H 7850 3900 50  0001 L BNN
+F 4 "Raspberry Pi" H 7850 3900 50  0001 L BNN "MANUFACTURER"
+F 5 "3.73mm" H 7850 3900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "1.6" H 7850 3900 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 7850 3900 50  0001 L BNN "STANDARD"
+	1    7850 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 6150 0    50   ~ 0
+Raspberry Pi Pico (RP2040) IC\n
+Text Label 1900 2150 1    50   ~ 0
+RPi_QFN40_p1
+Text Label 2000 2150 1    50   ~ 0
+RPi_QFN40_p10
+Text Label 2100 2150 1    50   ~ 0
+RPi_QFN40_p22
+Text Label 2200 2150 1    50   ~ 0
+RPi_QFN40_p33
+Text Label 2300 2150 1    50   ~ 0
+RPi_QFN40_p42
+Text Label 2400 2150 1    50   ~ 0
+RPi_QFN40_p49
+Text Label 2500 2150 1    50   ~ 0
+RPi_QFN40_p23
+Text Label 2600 2150 1    50   ~ 0
+RPi_QFN40_p50
+Text Label 3250 2450 0    50   ~ 0
+RPi_QFN40_p43
+Text Label 3250 2750 0    50   ~ 0
+RPi_QFN40_p48
+Text Label 3250 2950 0    50   ~ 0
+RPi_QFN40_p45
+Text Label 3250 3150 0    50   ~ 0
+RPi_QFN40_p52
+Text Label 3250 3250 0    50   ~ 0
+RPi_QFN40_p53
+Text Label 3250 3350 0    50   ~ 0
+RPi_QFN40_p55
+Text Label 3250 3450 0    50   ~ 0
+RPi_QFN40_p54
+Text Label 3250 3550 0    50   ~ 0
+RPi_QFN40_p51
+Text Label 3250 3650 0    50   ~ 0
+RPi_QFN40_p56
+Text Label 3250 3850 0    50   ~ 0
+RPi_QFN40_p46
+Text Label 3250 3950 0    50   ~ 0
+RPi_QFN40_p47
+Text Label 3250 4150 0    50   ~ 0
+RPi_QFN40_p18
+Text Label 3250 4250 0    50   ~ 0
+RPi_QFN40_p27
+Text Label 3250 4350 0    50   ~ 0
+RPi_QFN40_p28
+Text Label 3250 4450 0    50   ~ 0
+RPi_QFN40_p29
+Text Label 3250 4550 0    50   ~ 0
+RPi_QFN40_p30
+Text Label 3250 4650 0    50   ~ 0
+RPi_QFN40_p31
+Text Label 3250 4750 0    50   ~ 0
+RPi_QFN40_p32
+Text Label 3250 4850 0    50   ~ 0
+RPi_QFN40_p34
+Text Label 3250 4950 0    50   ~ 0
+RPi_QFN40_p35
+Text Label 3250 5050 0    50   ~ 0
+RPi_QFN40_p36
+Text Label 3250 5150 0    50   ~ 0
+RPi_QFN40_p37
+Text Label 3250 5250 0    50   ~ 0
+RPi_QFN40_p38
+Text Label 3250 5350 0    50   ~ 0
+RPi_QFN40_p39
+Text Label 3250 5450 0    50   ~ 0
+RPi_QFN40_p40
+Text Label 3250 5550 0    50   ~ 0
+RPi_QFN40_p41
+Text Label 3250 5750 0    50   ~ 0
+RPi_QFN40_p19
+Text Label 3250 5950 0    50   ~ 0
+RPi_QFN40_p57
+Text Label 1450 5550 2    50   ~ 0
+RPi_QFN40_p17
+Text Label 1450 4150 2    50   ~ 0
+RPi_QFN40_p2
+Text Label 1450 4250 2    50   ~ 0
+RPi_QFN40_p3
+Text Label 1450 4350 2    50   ~ 0
+RPi_QFN40_p4
+Text Label 1450 4450 2    50   ~ 0
+RPi_QFN40_p5
+Text Label 1450 4550 2    50   ~ 0
+RPi_QFN40_p6
+Text Label 1450 4650 2    50   ~ 0
+RPi_QFN40_p7
+Text Label 1450 4750 2    50   ~ 0
+RPi_QFN40_p8
+Text Label 1450 4850 2    50   ~ 0
+RPi_QFN40_p9
+Text Label 1450 4950 2    50   ~ 0
+RPi_QFN40_p11
+Text Label 1450 5050 2    50   ~ 0
+RPi_QFN40_p12
+Text Label 1450 5150 2    50   ~ 0
+RPi_QFN40_p13
+Text Label 1450 5250 2    50   ~ 0
+RPi_QFN40_p14
+Text Label 1450 5350 2    50   ~ 0
+RPi_QFN40_p15
+Text Label 1450 5450 2    50   ~ 0
+RPi_QFN40_p16
+Text Label 1450 2950 2    50   ~ 0
+RPi_QFN40_p44
+Text Label 1450 3150 2    50   ~ 0
+RPi_QFN40_p26
+Text Label 1450 3350 2    50   ~ 0
+RPi_QFN40_p24
+Text Label 1450 3450 2    50   ~ 0
+RPi_QFN40_p25
+Text Label 1450 3750 2    50   ~ 0
+RPi_QFN40_p20
+Text Label 1450 3850 2    50   ~ 0
+RPi_QFN40_p21
+Text Label 6850 2800 2    50   ~ 0
+RPi_QFN40_p37
+Text Label 6850 2900 2    50   ~ 0
+RPi_QFN40_p30
+Text Label 6850 3100 2    50   ~ 0
+RPi_QFN40_p1
+Text Label 6850 3200 2    50   ~ 0
+RPi_QFN40_p2
+Text Label 8850 2400 0    50   ~ 0
+RPi_QFN40_p39
+Text Label 6850 3300 2    50   ~ 0
+RPi_QFN40_p4
+Text Label 6850 3400 2    50   ~ 0
+RPi_QFN40_p5
+Text Label 6850 3500 2    50   ~ 0
+RPi_QFN40_p6
+Text Label 6850 3600 2    50   ~ 0
+RPi_QFN40_p7
+Text Label 8850 2300 0    50   ~ 0
+RPi_QFN40_p40
+Text Label 6850 3700 2    50   ~ 0
+RPi_QFN40_p9
+Text Label 6850 3900 2    50   ~ 0
+RPi_QFN40_p11
+Text Label 6850 4000 2    50   ~ 0
+RPi_QFN40_p12
+Text Label 8850 5500 0    50   ~ 0
+RPi_QFN40_p13
+Text Label 6850 4100 2    50   ~ 0
+RPi_QFN40_p14
+Text Label 6850 4200 2    50   ~ 0
+RPi_QFN40_p15
+Text Label 6850 4300 2    50   ~ 0
+RPi_QFN40_p16
+Text Label 6850 3800 2    50   ~ 0
+RPi_QFN40_p10
+Text Label 8850 2500 0    50   ~ 0
+RPi_QFN40_p36
+Text Label 8850 2600 0    50   ~ 0
+RPi_QFN40_p35
+Text Label 8850 2800 0    50   ~ 0
+RPi_QFN40_pD1
+Text Label 8850 2900 0    50   ~ 0
+RPi_QFN40_pD3
+Text Label 8850 3100 0    50   ~ 0
+RPi_QFN40_p13
+Text Label 8850 3200 0    50   ~ 0
+RPi_QFN40_p19
+Text Label 8850 3300 0    50   ~ 0
+RPi_QFN40_p20
+Text Label 8850 3400 0    50   ~ 0
+RPi_QFN40_p21
+Text Label 8850 3500 0    50   ~ 0
+RPi_QFN40_p22
+Text Label 8850 3600 0    50   ~ 0
+RPi_QFN40_p24
+Text Label 8850 3700 0    50   ~ 0
+RPi_QFN40_p25
+Text Label 8850 3800 0    50   ~ 0
+RPi_QFN40_p26
+Text Label 8850 3900 0    50   ~ 0
+RPi_QFN40_p27
+Text Label 8850 4000 0    50   ~ 0
+RPi_QFN40_p29
+Text Label 8850 4100 0    50   ~ 0
+RPi_QFN40_p31
+Text Label 8850 4200 0    50   ~ 0
+RPi_QFN40_p32
+Text Label 8850 4300 0    50   ~ 0
+RPi_QFN40_p34
+Text Label 8850 4500 0    50   ~ 0
+RPi_QFN40_TP6
+Text Label 8850 4600 0    50   ~ 0
+RPi_QFN40_TP2
+Text Label 8850 4700 0    50   ~ 0
+RPi_QFN40_TP3
+Text Label 8850 4800 0    50   ~ 0
+RPi_QFN40_TP4
+Text Label 8850 4900 0    50   ~ 0
+RPi_QFN40_TP5
+Text Label 8850 5000 0    50   ~ 0
+RPi_QFN40_TP1
+Text Label 8850 5200 0    50   ~ 0
+RPi_QFN40_USB_Shield
+Text Label 8850 5400 0    50   ~ 0
+RPi_QFN40_AGND
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise RPi_QFN40_J1
+U 1 1 6232D445
+P 4900 3750
+AR Path="/61946827/6232D445" Ref="RPi_QFN40_J1"  Part="1" 
+AR Path="/618F80EB/6232D445" Ref="PWR_RAIL_?"  Part="1" 
+F 0 "RPi_QFN40_J1" H 4950 4300 50  0000 C CNN
+F 1 "Conn_02x010_Counter_Clockwise" H 4950 4076 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical" H 4900 3750 50  0001 C CNN
+F 3 "~" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	1    0    0    -1  
+$EndComp
+Text Label 4700 3350 2    50   ~ 0
+RPi_QFN40_p3
+Text Label 4700 3450 2    50   ~ 0
+RPi_QFN40_p8
+Text Label 4700 3550 2    50   ~ 0
+RPi_QFN40_p13
+Text Label 4700 3650 2    50   ~ 0
+RPi_QFN40_p17
+Text Label 4700 3750 2    50   ~ 0
+RPi_QFN40_p18
+Text Label 4700 3850 2    50   ~ 0
+RPi_QFN40_p23
+Text Label 4700 3950 2    50   ~ 0
+RPi_QFN40_p28
+Text Label 4700 4050 2    50   ~ 0
+RPi_QFN40_p33
+Text Label 4700 4150 2    50   ~ 0
+RPi_QFN40_p38
+Text Label 4700 4250 2    50   ~ 0
+RPi_QFN40_p40
+Text Label 5200 3350 0    50   ~ 0
+RPi_QFN40_AGND
+Text Label 5200 3450 0    50   ~ 0
+RPi_QFN40_p42
+Text Label 5200 3550 0    50   ~ 0
+RPi_QFN40_p43
+Text Label 5200 3650 0    50   ~ 0
+RPi_QFN40_p44
+Text Label 5200 3750 0    50   ~ 0
+RPi_QFN40_p45
+Text Label 5200 3850 0    50   ~ 0
+RPi_QFN40_p46
+Text Label 5200 3950 0    50   ~ 0
+RPi_QFN40_p47
+Text Label 5200 4050 0    50   ~ 0
+RPi_QFN40_p48
+Text Label 5200 4150 0    50   ~ 0
+RPi_QFN40_p49
+Text Label 5200 4250 0    50   ~ 0
+RPi_QFN40_p50
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise RPi_QFN40_J2
+U 1 1 62433689
+P 4900 5050
+AR Path="/61946827/62433689" Ref="RPi_QFN40_J2"  Part="1" 
+AR Path="/618F80EB/62433689" Ref="RPi_QFN40_J?"  Part="1" 
+F 0 "RPi_QFN40_J2" H 4950 5600 50  0000 C CNN
+F 1 "Conn_02x010_Counter_Clockwise" H 4950 5376 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical" H 4900 5050 50  0001 C CNN
+F 3 "~" H 4900 5050 50  0001 C CNN
+	1    4900 5050
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4650 2    50   ~ 0
+RPi_QFN40_p51
+Text Label 4700 4750 2    50   ~ 0
+RPi_QFN40_p52
+Text Label 4700 4850 2    50   ~ 0
+RPi_QFN40_p53
+Text Label 4700 4950 2    50   ~ 0
+RPi_QFN40_p54
+Text Label 4700 5050 2    50   ~ 0
+RPi_QFN40_p55
+Text Label 4700 5150 2    50   ~ 0
+RPi_QFN40_p56
+Text Label 19900 13550 1    50   ~ 0
+BGA81_pC1
+Text Label 20000 13550 1    50   ~ 0
+BGA81_pD4
+Text Label 20100 13550 1    50   ~ 0
+BGA81_pE5
+Text Label 20200 13550 1    50   ~ 0
+BGA81_pF2
+Text Label 20300 13550 1    50   ~ 0
+BGA81_pF9
+Text Label 20150 14850 3    50   ~ 0
+BGA81_pD5
+Text Label 20050 14850 3    50   ~ 0
+BGA81_pD1
+Text Label 19950 14850 3    50   ~ 0
+BGA81_pB7
+Text Label 19850 14850 3    50   ~ 0
+BGA81_pB1
+Text Label 19750 14850 3    50   ~ 0
+BGA81_pA2
+Text Label 20650 14850 3    50   ~ 0
+BGA81_pH1
+Text Label 20550 14850 3    50   ~ 0
+BGA81_pG7
+Text Label 20450 14850 3    50   ~ 0
+BGA81_pG2
+Text Label 20350 14850 3    50   ~ 0
+BGA81_pE9
+Text Label 20250 14850 3    50   ~ 0
+BGA81_pE4
+$Comp
+L Interface_CAN_LIN:MCP2551-I-P DIP8
+U 1 1 61C1C74A
+P 5800 10100
+F 0 "DIP8" H 5450 10450 50  0000 C CNN
+F 1 "MCP2551-I-P" H 5800 10590 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5800 9600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 5800 10100 50  0001 C CNN
+	1    5800 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:MCP2515-xSO SOIC-18W1
+U 1 1 61C1DD87
+P 7850 10200
+F 0 "SOIC-18W1" H 7550 10950 50  0000 C CNN
+F 1 "MCP2515-xSO" H 7850 11090 50  0001 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 7850 9300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf" H 7950 9400 50  0001 C CNN
+	1    7850 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_PIC18:PIC18F26K22-xSP DIP28
+U 1 1 61C1FFAC
+P 1850 13350
+F 0 "DIP28" H 1350 14300 50  0000 C CNN
+F 1 "PIC18F26K22-xSP" H 1850 14440 50  0001 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 1900 13375 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf" H 1900 13375 50  0001 C CNN
+	1    1850 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_PIC18:PIC18LF26K80_ISS SSOP-28
+U 1 1 61C228EF
+P 5200 13500
+F 0 "SSOP-28" H 4700 14450 50  0000 C CNN
+F 1 "PIC18LF26K80_ISS" H 5200 14476 50  0001 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5200 13250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf" H 5200 13450 50  0001 C CNN
+	1    5200 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_PIC18:PIC18LF2431-ISO SOIC-28W1
+U 1 1 61C2394E
+P 10250 13500
+F 0 "SOIC-28W1" H 9450 14600 50  0000 C CNN
+F 1 "PIC18LF2431-ISO" H 10250 14790 50  0001 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 10250 13500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39616d.pdf" H 10250 13100 50  0001 C CNN
+	1    10250 13500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	500  8200 15650 8200
+Wire Notes Line
+	15650 8200 15650 18400
+Wire Notes Line
+	15650 18400 500  18400
+Wire Notes Line
+	500  18400 500  8200
+Text Notes 1000 18000 0    50   ~ 0
+Using Microchip ICs for CAN bus ability on PCB.
+$Comp
+L Connector_Generic:Conn_01x09 SOIC-18W_J1
+U 1 1 61CD2C4E
+P 10100 10100
+AR Path="/61946827/61CD2C4E" Ref="SOIC-18W_J1"  Part="1" 
+AR Path="/618F80EB/61CD2C4E" Ref="GND_RAIL?"  Part="1" 
+F 0 "SOIC-18W_J1" V 10200 10250 50  0000 C CNN
+F 1 "Conn_01x09" H 10150 10426 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 10100 10100 50  0001 C CNN
+F 3 "~" H 10100 10100 50  0001 C CNN
+	1    10100 10100
+	1    0    0    -1  
+$EndComp
+Text Label 9900 9700 2    50   ~ 0
+SOIC-18W_p1
+Text Label 9900 9800 2    50   ~ 0
+SOIC-18W_p2
+Text Label 9900 9900 2    50   ~ 0
+SOIC-18W_p3
+Text Label 9900 10000 2    50   ~ 0
+SOIC-18W_p4
+Text Label 9900 10100 2    50   ~ 0
+SOIC-18W_p5
+Text Label 9900 10200 2    50   ~ 0
+SOIC-18W_p6
+Text Label 9900 10300 2    50   ~ 0
+SOIC-18W_p7
+Text Label 9900 10400 2    50   ~ 0
+SOIC-18W_p8
+Text Label 9900 10500 2    50   ~ 0
+SOIC-18W_p9
+Text Label 9900 10800 2    50   ~ 0
+SOIC-18W_p10
+Text Label 9900 10900 2    50   ~ 0
+SOIC-18W_p11
+Text Label 9900 11000 2    50   ~ 0
+SOIC-18W_p12
+Text Label 9900 11100 2    50   ~ 0
+SOIC-18W_p13
+Text Label 9900 11200 2    50   ~ 0
+SOIC-18W_p14
+Text Label 9900 11300 2    50   ~ 0
+SOIC-18W_p15
+Text Label 9900 11400 2    50   ~ 0
+SOIC-18W_p16
+Text Label 9900 11500 2    50   ~ 0
+SOIC-18W_p17
+Text Label 9900 11600 2    50   ~ 0
+SOIC-18W_p18
+Text Label 7850 9400 1    50   ~ 0
+SOIC-18W_p18
+Text Label 8450 9600 0    50   ~ 0
+SOIC-18W_p2
+Text Label 8450 9700 0    50   ~ 0
+SOIC-18W_p1
+Text Label 8450 10200 0    50   ~ 0
+SOIC-18W_p12
+Text Label 8450 10300 0    50   ~ 0
+SOIC-18W_p11
+Text Label 8450 10400 0    50   ~ 0
+SOIC-18W_p10
+Text Label 8450 10800 0    50   ~ 0
+SOIC-18W_p17
+Text Label 7250 9600 2    50   ~ 0
+SOIC-18W_p14
+Text Label 7250 9700 2    50   ~ 0
+SOIC-18W_p15
+Text Label 7250 9800 2    50   ~ 0
+SOIC-18W_p16
+Text Label 7250 9900 2    50   ~ 0
+SOIC-18W_p13
+Text Label 7250 10400 2    50   ~ 0
+SOIC-18W_p7
+Text Label 7250 10500 2    50   ~ 0
+SOIC-18W_p8
+Text Label 7250 10600 2    50   ~ 0
+SOIC-18W_p3
+Text Label 7850 11000 3    50   ~ 0
+SOIC-18W_p10
+Text Label 8450 10600 0    50   ~ 0
+SOIC-18W_p5
+Text Label 8450 10500 0    50   ~ 0
+SOIC-18W_p4
+Text Label 8450 10700 0    50   ~ 0
+SOIC-18W_p6
+$Comp
+L Connector_Generic:Conn_01x09 SOIC-18W_J2
+U 1 1 61D022A6
+P 10100 11200
+AR Path="/61946827/61D022A6" Ref="SOIC-18W_J2"  Part="1" 
+AR Path="/618F80EB/61D022A6" Ref="SOIC-18W_J?"  Part="1" 
+F 0 "SOIC-18W_J2" V 10200 11400 50  0000 C CNN
+F 1 "Conn_01x09" H 10150 11526 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical" H 10100 11200 50  0001 C CNN
+F 3 "~" H 10100 11200 50  0001 C CNN
+	1    10100 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x14_Counter_Clockwise SOIC-28W1_J1
+U 1 1 61D2015D
+P 10200 16500
+F 0 "SOIC-28W1_J1" H 10250 17225 50  0000 C CNN
+F 1 "Conn_02x14_Counter_Clockwise" H 10250 17226 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x14_P1.27mm_Vertical_SMD" H 10200 16500 50  0001 C CNN
+F 3 "~" H 10200 16500 50  0001 C CNN
+	1    10200 16500
+	1    0    0    -1  
+$EndComp
+Text Label 9050 12600 2    50   ~ 0
+SOIC-28W1_p1
+Text Label 10000 15900 2    50   ~ 0
+SOIC-28W1_p1
+Text Label 10000 16000 2    50   ~ 0
+SOIC-28W1_p2
+Text Label 10000 16100 2    50   ~ 0
+SOIC-28W1_p3
+Text Label 10000 16200 2    50   ~ 0
+SOIC-28W1_p4
+Text Label 10000 16300 2    50   ~ 0
+SOIC-28W1_p5
+Text Label 10000 16400 2    50   ~ 0
+SOIC-28W1_p6
+Text Label 10000 16500 2    50   ~ 0
+SOIC-28W1_p7
+Text Label 10000 16600 2    50   ~ 0
+SOIC-28W1_p8
+Text Label 10000 16700 2    50   ~ 0
+SOIC-28W1_p9
+Text Label 10000 16800 2    50   ~ 0
+SOIC-28W1_p10
+Text Label 10000 16900 2    50   ~ 0
+SOIC-28W1_p11
+Text Label 10000 17000 2    50   ~ 0
+SOIC-28W1_p12
+Text Label 10000 17100 2    50   ~ 0
+SOIC-28W1_p13
+Text Label 10000 17200 2    50   ~ 0
+SOIC-28W1_p14
+Text Label 10500 17200 0    50   ~ 0
+SOIC-28W1_p15
+Text Label 10500 17100 0    50   ~ 0
+SOIC-28W1_p16
+Text Label 10500 17000 0    50   ~ 0
+SOIC-28W1_p17
+Text Label 10500 16900 0    50   ~ 0
+SOIC-28W1_p18
+Text Label 10500 16800 0    50   ~ 0
+SOIC-28W1_p19
+Text Label 10500 16700 0    50   ~ 0
+SOIC-28W1_p20
+Text Label 10500 16600 0    50   ~ 0
+SOIC-28W1_p21
+Text Label 10500 16500 0    50   ~ 0
+SOIC-28W1_p22
+Text Label 10500 16400 0    50   ~ 0
+SOIC-28W1_p23
+Text Label 10500 16300 0    50   ~ 0
+SOIC-28W1_p24
+Text Label 10500 16200 0    50   ~ 0
+SOIC-28W1_p25
+Text Label 10500 16100 0    50   ~ 0
+SOIC-28W1_p26
+Text Label 10500 16000 0    50   ~ 0
+SOIC-28W1_p27
+Text Label 10500 15900 0    50   ~ 0
+SOIC-28W1_p28
+$Comp
+L Connector_Generic:Conn_02x14_Counter_Clockwise SSOP-28_J1
+U 1 1 61D638BF
+P 5150 16550
+F 0 "SSOP-28_J1" H 5200 17275 50  0000 C CNN
+F 1 "Conn_02x14_Counter_Clockwise" H 5200 17276 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x13_P1.00mm_Vertical_SMD" H 5150 16550 50  0001 C CNN
+F 3 "~" H 5150 16550 50  0001 C CNN
+	1    5150 16550
+	1    0    0    -1  
+$EndComp
+Text Label 4950 15950 2    50   ~ 0
+SSOP-28_p1
+Text Label 4950 16050 2    50   ~ 0
+SSOP-28_p2
+Text Label 4950 16150 2    50   ~ 0
+SSOP-28_p3
+Text Label 4950 16250 2    50   ~ 0
+SSOP-28_p4
+Text Label 4950 16350 2    50   ~ 0
+SSOP-28_p5
+Text Label 4950 16450 2    50   ~ 0
+SSOP-28_p6
+Text Label 4950 16550 2    50   ~ 0
+SSOP-28_p7
+Text Label 4950 16650 2    50   ~ 0
+SSOP-28_p8
+Text Label 4950 16750 2    50   ~ 0
+SSOP-28_p9
+Text Label 4950 16850 2    50   ~ 0
+SSOP-28_p10
+Text Label 4950 16950 2    50   ~ 0
+SSOP-28_p11
+Text Label 4950 17050 2    50   ~ 0
+SSOP-28_p12
+Text Label 4950 17150 2    50   ~ 0
+SSOP-28_p13
+Text Label 4950 17250 2    50   ~ 0
+SSOP-28_p14
+Text Label 5450 17250 0    50   ~ 0
+SSOP-28_p15
+Text Label 5450 17150 0    50   ~ 0
+SSOP-28_p16
+Text Label 5450 17050 0    50   ~ 0
+SSOP-28_p17
+Text Label 5450 16950 0    50   ~ 0
+SSOP-28_p18
+Text Label 5450 16850 0    50   ~ 0
+SSOP-28_p19
+Text Label 5450 16750 0    50   ~ 0
+SSOP-28_p20
+Text Label 5450 16650 0    50   ~ 0
+SSOP-28_p21
+Text Label 5450 16550 0    50   ~ 0
+SSOP-28_p22
+Text Label 5450 16450 0    50   ~ 0
+SSOP-28_p23
+Text Label 5450 16350 0    50   ~ 0
+SSOP-28_p24
+Text Label 5450 16250 0    50   ~ 0
+SSOP-28_p25
+Text Label 5450 16150 0    50   ~ 0
+SSOP-28_p26
+Text Label 5450 16050 0    50   ~ 0
+SSOP-28_p27
+Text Label 5450 15950 0    50   ~ 0
+SSOP-28_p28
+Text Label 11450 12800 0    50   ~ 0
+SOIC-28W1_p11
+Text Label 11450 12900 0    50   ~ 0
+SOIC-28W1_p12
+Text Label 11450 13000 0    50   ~ 0
+SOIC-28W1_p13
+Text Label 11450 13100 0    50   ~ 0
+SOIC-28W1_p14
+Text Label 11450 13200 0    50   ~ 0
+SOIC-28W1_p15
+Text Label 11450 13300 0    50   ~ 0
+SOIC-28W1_p16
+Text Label 11450 13400 0    50   ~ 0
+SOIC-28W1_p17
+Text Label 11450 13500 0    50   ~ 0
+SOIC-28W1_p18
+Text Label 10350 14700 3    50   ~ 0
+SOIC-28W1_p19
+Text Label 10150 14700 3    50   ~ 0
+SOIC-28W1_p8
+Text Label 9050 14300 2    50   ~ 0
+SOIC-28W1_p28
+Text Label 9050 14200 2    50   ~ 0
+SOIC-28W1_p27
+Text Label 9050 14100 2    50   ~ 0
+SOIC-28W1_p26
+Text Label 9050 14000 2    50   ~ 0
+SOIC-28W1_p25
+Text Label 9050 13900 2    50   ~ 0
+SOIC-28W1_p24
+Text Label 9050 13800 2    50   ~ 0
+SOIC-28W1_p23
+Text Label 9050 13700 2    50   ~ 0
+SOIC-28W1_p22
+Text Label 9050 13600 2    50   ~ 0
+SOIC-28W1_p21
+Text Label 9050 13400 2    50   ~ 0
+SOIC-28W1_p9
+Text Label 9050 13300 2    50   ~ 0
+SOIC-28W1_p10
+Text Label 9050 13200 2    50   ~ 0
+SOIC-28W1_p6
+Text Label 9050 13100 2    50   ~ 0
+SOIC-28W1_p5
+Text Label 9050 13000 2    50   ~ 0
+SOIC-28W1_p4
+Text Label 9050 12900 2    50   ~ 0
+SOIC-28W1_p3
+Text Label 9050 12800 2    50   ~ 0
+SOIC-28W1_p2
+Text Label 10150 12300 1    50   ~ 0
+SOIC-28W1_p7
+Text Label 10350 12300 1    50   ~ 0
+SOIC-28W1_p20
+Text Label 6000 13400 0    50   ~ 0
+SSOP-28_p28
+Text Label 6000 13300 0    50   ~ 0
+SSOP-28_p27
+Text Label 6000 13200 0    50   ~ 0
+SSOP-28_p26
+Text Label 6000 13100 0    50   ~ 0
+SSOP-28_p25
+Text Label 6000 13000 0    50   ~ 0
+SSOP-28_p24
+Text Label 6000 12900 0    50   ~ 0
+SSOP-28_p23
+Text Label 6000 12800 0    50   ~ 0
+SSOP-28_p22
+Text Label 6000 12700 0    50   ~ 0
+SSOP-28_p21
+Text Label 6000 13600 0    50   ~ 0
+SSOP-28_p11
+Text Label 6000 13700 0    50   ~ 0
+SSOP-28_p12
+Text Label 6000 13800 0    50   ~ 0
+SSOP-28_p13
+Text Label 6000 13900 0    50   ~ 0
+SSOP-28_p14
+Text Label 6000 14000 0    50   ~ 0
+SSOP-28_p15
+Text Label 6000 14100 0    50   ~ 0
+SSOP-28_p16
+Text Label 6000 14200 0    50   ~ 0
+SSOP-28_p17
+Text Label 6000 14300 0    50   ~ 0
+SSOP-28_p18
+Text Label 4400 12700 2    50   ~ 0
+SSOP-28_p2
+Text Label 4400 12800 2    50   ~ 0
+SSOP-28_p3
+Text Label 4400 12900 2    50   ~ 0
+SSOP-28_p4
+Text Label 4400 13000 2    50   ~ 0
+SSOP-28_p5
+Text Label 4400 13100 2    50   ~ 0
+SSOP-28_p7
+Text Label 4400 13300 2    50   ~ 0
+SSOP-28_p1
+Text Label 4400 13500 2    50   ~ 0
+SSOP-28_p10
+Text Label 4400 13600 2    50   ~ 0
+SSOP-28_p9
+Text Label 4400 13800 2    50   ~ 0
+SSOP-28_p20
+Text Label 4400 13900 2    50   ~ 0
+SSOP-28_p6
+Text Label 4400 14100 2    50   ~ 0
+SSOP-28_p8
+Text Label 4400 14200 2    50   ~ 0
+SSOP-28_p19
+$Comp
+L TFP410PAP:TFP410PAP HTQFP-?
+U 1 1 6250BE98
+P 14400 4050
+AR Path="/6250BE98" Ref="HTQFP-?"  Part="1" 
+AR Path="/62446474/6250BE98" Ref="HTQFP-?"  Part="1" 
+AR Path="/61946827/6250BE98" Ref="HTQFP-64"  Part="1" 
+F 0 "HTQFP-64" H 13900 6400 50  0000 C CNN
+F 1 "TFP410PAP" H 14400 6440 50  0001 C CNN
+F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias" H 14450 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tfp410.pdf" H 14450 1700 50  0001 C CNN
+	1    14400 4050
+	1    0    0    -1  
+$EndComp
+Text Label 13700 3950 2    50   ~ 0
+RPi_QFN40_p42
+Text Label 14300 1750 1    50   ~ 0
+RPi_QFN40_p29
+Text Label 13700 3850 2    50   ~ 0
+RPi_QFN40_p43
+Text Label 14200 1750 1    50   ~ 0
+RPi_QFN40_p18
+Text Label 15100 3150 0    50   ~ 0
+RPi_QFN40_p27
+Text Label 15100 5450 0    50   ~ 0
+RPi_QFN40_p34
+Text Label 13700 5250 2    50   ~ 0
+RPi_QFN40_p35
+Text Label 13700 4350 2    50   ~ 0
+RPi_QFN40_p38
+Text Label 13700 4250 2    50   ~ 0
+RPi_QFN40_p39
+Text Label 13700 4150 2    50   ~ 0
+RPi_QFN40_p40
+Text Label 13700 4050 2    50   ~ 0
+RPi_QFN40_p41
+Text Label 15100 2250 0    50   ~ 0
+RPi_QFN40_p19
+Text Label 14500 6450 3    50   ~ 0
+RPi_QFN40_p17
+Text Label 13700 4750 2    50   ~ 0
+RPi_QFN40_p2
+Text Label 13700 4950 2    50   ~ 0
+RPi_QFN40_p4
+Text Label 13700 4850 2    50   ~ 0
+RPi_QFN40_p5
+Text Label 13700 5950 2    50   ~ 0
+RPi_QFN40_p6
+Text Label 13700 5850 2    50   ~ 0
+RPi_QFN40_p7
+Text Label 13700 5750 2    50   ~ 0
+RPi_QFN40_p8
+Text Label 13700 5150 2    50   ~ 0
+RPi_QFN40_p9
+Text Label 13700 5450 2    50   ~ 0
+RPi_QFN40_p11
+Text Label 13700 5650 2    50   ~ 0
+RPi_QFN40_p13
+Text Label 13700 6150 2    50   ~ 0
+RPi_QFN40_p14
+Text Label 13700 6250 2    50   ~ 0
+RPi_QFN40_p15
+Text Label 14400 6450 3    50   ~ 0
+RPi_QFN40_p16
+Text Label 15100 2950 0    50   ~ 0
+RPi_QFN40_p24
+Text Label 15100 2850 0    50   ~ 0
+RPi_QFN40_p25
+Text Label 14300 6450 3    50   ~ 0
+RPi_QFN40_p20
+Text Label 15100 3550 0    50   ~ 0
+RPi_QFN40_p21
+Text Label 13700 4450 2    50   ~ 0
+RPi_QFN40_p37
+Text Label 15100 3350 0    50   ~ 0
+RPi_QFN40_p30
+Text Label 14700 1750 1    50   ~ 0
+RPi_QFN40_p1
+Text Label 13700 5550 2    50   ~ 0
+RPi_QFN40_p10
+Text Label 15100 3450 0    50   ~ 0
+RPi_QFN40_p22
+Text Label 15100 2100 0    50   ~ 0
+RPi_QFN40_p3
+Text Label 15100 3050 0    50   ~ 0
+RPi_QFN40_p28
+Text Label 13700 3150 2    50   ~ 0
+RPi_QFN40_p52
+Text Label 13700 3050 2    50   ~ 0
+RPi_QFN40_p53
+Text Label 13700 2950 2    50   ~ 0
+RPi_QFN40_p54
+Text Label 13700 2850 2    50   ~ 0
+RPi_QFN40_p55
+Text Label 13700 1950 2    50   ~ 0
+RPi_QFN40_p56
+Text Label 15100 3250 0    50   ~ 0
+RPi_QFN40_p31
+Text Label 13700 2050 2    50   ~ 0
+RPi_QFN40_p57
+Text Label 13700 3250 2    50   ~ 0
+RPi_QFN40_p52
+Text Label 13700 3350 2    50   ~ 0
+RPi_QFN40_p52
+Text Label 13700 3750 2    50   ~ 0
+RPi_QFN40_p44
+Text Label 13700 3650 2    50   ~ 0
+RPi_QFN40_p45
+Text Label 13700 3550 2    50   ~ 0
+RPi_QFN40_p46
+Text Label 13700 3450 2    50   ~ 0
+RPi_QFN40_p47
+Text Label 13700 2750 2    50   ~ 0
+RPi_QFN40_p58
+Text Label 13700 2650 2    50   ~ 0
+RPi_QFN40_p59
+Text Label 13700 2550 2    50   ~ 0
+RPi_QFN40_p60
+Text Label 13700 2450 2    50   ~ 0
+RPi_QFN40_p61
+Text Label 13700 2350 2    50   ~ 0
+RPi_QFN40_p62
+Text Label 13700 2250 2    50   ~ 0
+RPi_QFN40_p63
+Text Label 14400 1750 1    50   ~ 0
+RPi_QFN40_p23
+Text Label 14500 1750 1    50   ~ 0
+RPi_QFN40_p33
+Text Label 14600 1750 1    50   ~ 0
+RPi_QFN40_p12
+Text Label 15000 5350 0    50   ~ 0
+RPi_QFN40_p49
+Text Label 13700 4550 2    50   ~ 0
+RPi_QFN40_p36
+$Comp
+L Softgalaxy_Library:Py_Board Micro_Python?
+U 1 1 62532443
+P 20100 3500
+AR Path="/62446474/62532443" Ref="Micro_Python?"  Part="1" 
+AR Path="/61946827/62532443" Ref="Micro_Python1"  Part="1" 
+F 0 "Micro_Python1" H 19300 4350 50  0000 C CNN
+F 1 "Py_Board" H 20050 3250 50  0000 C CNN
+F 2 "Softgalaxy_Footprints:MICRO_PYTHON" H 20100 3500 50  0001 C CNN
+F 3 "" H 20100 3500 50  0001 C CNN
+	1    20100 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
