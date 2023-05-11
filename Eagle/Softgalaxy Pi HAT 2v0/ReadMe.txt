@@ -1,0 +1,1 @@
+This PCB project is done to add CAN bus functionality to Raspberry Pi.
